@@ -1,0 +1,4439 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{url}
+\usepackage[hang,splitrule]{footmisc}
+\addtolength{\footskip}{0.5cm}
+\setlength{\footnotemargin}{0.4cm}
+\setlength{\footnotesep}{0.4cm}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plainurl
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Propane-Oxygen Car Bomb Rapid Assessment
+\end_layout
+
+\begin_layout Author
+S.
+ Kevin McNeill,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+shonn.mcneill@atf.gov
+\end_layout
+
+\end_inset
+
+, National Center for Explosive Training and Research (NCETR)
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Timothy Shelly, Ph.D.,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+timothy.shelley@atf.gov
+\end_layout
+
+\end_inset
+
+, ATF National Laborotary
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Joseph Tiano,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+joseph.tiano@atf.gov
+\end_layout
+
+\end_inset
+
+, Intelligence and Information Warfare Directorate (Contractor with American
+ Systems Corporation)
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Address
+National Center for Explosives Training and Research
+\begin_inset Newline newline
+\end_inset
+
+Explosive Research and Development Division
+\begin_inset Newline newline
+\end_inset
+
+Redstone Arsenal, Huntsville, AL
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+This report presents the initial results of a test program to determine
+ the viability and lethality of a car bomb described in the Spring 2014
+ issue of Inspire magazine.
+ This effort was conducted for the National Counter Terrorism Center (NCTC).
+ This is an abbreviated report limited to the results and a brief discussion.
+ A more detailed report will be authored upon completion of the test program.
+\end_layout
+
+\begin_layout Standard
+The car bomb as described in the Inspire article consisted of a 20 lb commercial
+ propane tank similar to what is available at HomeDepot or Lowe's home improveme
+nt stores, see Figure #.
+ The propane from one of these tanks is vented until 
+\begin_inset Formula $3\: bar\:(43.5\: psig)$
+\end_inset
+
+ of propane remains and then a additional 
+\begin_inset Formula $9\: bar\:(130.5\: psi)$
+\end_inset
+
+ of oxygen is added to the tank for a total pressure of 
+\begin_inset Formula $12\: bar\:(188.5\: psig)$
+\end_inset
+
+.
+ An improvised initiator is then constructed from a POL
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Prest-o-Lite (POL) fitting.
+ A fitting used exclusively for flammable gases.
+ Easily identified by the notches in the hex of the fitting.
+ All POL fittings are tightened by turning counter-clockwise.
+ These fittings are no longer authorized for use within the United States
+ (2002) having been replaced by the required overfill protection device
+ or OPD valve.
+\end_layout
+
+\end_inset
+
+ x 1/4 inch hose barb fitting, a lightbulb, match heads, and epoxy.
+ The top of the lightbulb is broken off and filled with match heads and
+ sealed with tissue.
+ The lamp is then inserted into the POL x 1/4 inch hose barb fitting with
+ the lamp wires extending out the 1/4 hose barb.
+ Epoxy is then applied in and around the wires to prevent the propane-oxygen
+ mixture from leaking around the wires.
+ The fitting is then attached to the POL valve on the tank.
+ The article recommends that a minimum of 6 similarly modified tanks be
+ placed next to each other in a vehicle.
+ Each improvised initiator is then wired in parallel to a 
+\begin_inset Formula $12\: v$
+\end_inset
+
+ battery with a switch controlling the explosion.
+ The article specifies 3 switch types depending on the method of initiation.
+ A manual switch for martyrdom, a timer, and a radio frequency switch
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chief2014"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To determine if this propane tank bomb was feasible a series tests were
+ designed to address the following questions:
+\end_layout
+
+\begin_layout Enumerate
+Is the propane-oxygen mixture a viable explosive?
+\end_layout
+
+\begin_layout Enumerate
+Will the flame from the improvised initiator propagate through the POL valve
+ into the tank interior and result in an explosion?
+\end_layout
+
+\begin_layout Enumerate
+Will the flame from the improvised initiator propagate through an overfill
+ protection device (OPD) valve into the tank interior and result in an explosion
+? The OPD valve is required as of 2002 on all U.S.
+ propane tanks.
+\end_layout
+
+\begin_layout Enumerate
+What is the peak overpressure and impulse generated by the car bomb and
+ using this data what is the TNT equivalency.
+\end_layout
+
+\begin_layout Enumerate
+With the calculated TNT equivalency, at what range will there be a 50% probabili
+ty of a death from fragmentation.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Standard
+There were 4 propane-oxygen charge configurations tested in this program
+ to date.
+ The first charge configuration, see Figure #, was assembled with the factory
+ installed POL valve removed and replaced with a 
+\begin_inset Formula $\nicefrac{3}{4}\: in$
+\end_inset
+
+ pipe nipple and tee.
+ The valve was removed to allow direct access to the tank interior where
+ a RISI Inc.
+ SQ-80 thermite squib was centered.
+ This configuration removed the uncertainty associated with an improvised
+ initiator and the flame front having to pass through the factory POL valve.
+ One side of the 
+\begin_inset Formula $\nicefrac{3}{4}\: in$
+\end_inset
+
+ tee had a compression-seal-fitting to pass the firing signal to the RISI
+ SQ-80 for initiation.
+ The other side of the tee had a 
+\begin_inset Formula $\nicefrac{3}{4}$
+\end_inset
+
+ MPT x 
+\begin_inset Formula $\nicefrac{1}{4}$
+\end_inset
+
+ female-compression-fitting used to connect 
+\begin_inset Formula $50\: ft$
+\end_inset
+
+ of copper tubing to the tank.
+ The tubing was used to fill the propane tank with oxygen remotely from
+ behind a barricade as the stability of the propane-oxygen mixture was not
+ known.
+ The remove fill was utilized on all 4 shots for safety purposes.
+ This shot was recorded with a Phantom v310 high speed camera recording
+ at at 
+\begin_inset Formula $6,000\: fps$
+\end_inset
+
+, a resolution of 
+\begin_inset Formula $800$
+\end_inset
+
+ x 
+\begin_inset Formula $600$
+\end_inset
+
+, and a 
+\begin_inset Formula $75\: mm$
+\end_inset
+
+ lens.
+ Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Explosion--after-125"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Explosion--after-126"
+
+\end_inset
+
+ depict the explosion at 
+\begin_inset Formula $125\: ms$
+\end_inset
+
+ and 
+\begin_inset Formula $126\: ms$
+\end_inset
+
+ 
+\begin_inset Formula $ $
+\end_inset
+
+after initiation
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Initiation is defined as 
+\begin_inset Formula $t=0$
+\end_inset
+
+, when the firing signal from the RISI fire set was sent to the SQ-80 thermite
+ squib in the propane tank.
+\end_layout
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fragmentation-of-the-shot-1"
+
+\end_inset
+
+ shows the fragmentation
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The red rectangle to the right of the fireball is a tracking marker for
+ a single piece of fragmentation crossing the 
+\begin_inset Formula $10\: ft$
+\end_inset
+
+ reference marker.
+\end_layout
+
+\end_inset
+
+ of the propane tank 
+\begin_inset Formula $135\: ms$
+\end_inset
+
+ after initiation.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Shot-1-fragment"
+
+\end_inset
+
+ is a summary of fragment speeds captured on the high speed video.
+ These speeds are qualitative in nature as there is no vector information
+ related to the fragments.
+ Shot numbers 3 and 4 where videoed with 2 high speed cameras and the data
+ will be analyzed using Proanalyst videogrammetry software which will allow
+ tracking of the fragments in 3 dimensions.
+ This data will be presented in the final report.
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2.5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reference Direction
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time (ms)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distance (m)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment Velocity (m/s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to right cone 5 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+298
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to left cone 5 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.43
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+318
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank surface to right 10 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+292
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank surface to left 10 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.67
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+324
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Shot-1-fragment"
+
+\end_inset
+
+Shot 1 estimate of fragment speeds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename PropaneTank_Shot-1_20140605/003_Initial-Rupture_Frame-751.JPG
+	lyxscale 50
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Explosion--after-125"
+
+\end_inset
+
+Shot 1 explosion 
+\begin_inset Formula $125\: ms$
+\end_inset
+
+ after initiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename PropaneTank_Shot-1_20140605/004_PreFrame_ShockWave@R5'-Stack_Frame-759.JPG
+	lyxscale 50
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Explosion--after-126"
+
+\end_inset
+
+Shot 1 explosion 
+\begin_inset Formula $126\: ms$
+\end_inset
+
+ after initiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Propane-oxygen-tank-with"
+
+\end_inset
+
+Propane-oxygen tank with no valve and a RISI SQ-80 thermite igniter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename PropaneTank_Shot-1_20140605/007_Frag@R10'-Stake_Frame-811.JPG
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fragmentation-of-the-shot-1"
+
+\end_inset
+
+Shot 1 fragmentation of the tank 
+\begin_inset Formula $135\: ms$
+\end_inset
+
+ after initiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The second and third charge configuration, see Figure #, were configured
+ the same.
+ Both used a POL valve on the tank.
+ The outlet of the POL valve was reduced to 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ FPT.
+ A 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ nipple and tee was then used to connect 
+\begin_inset Formula $50\: ft$
+\end_inset
+
+ of copper tubing, for remote filling of the oxygen, on one end, and a 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ nipple containing a improvised initiator, on the other end.
+ The improvised initiator was constructed from a light bulb, match heads
+ and sealed with epoxy (J-B Weld), see Figure #.
+ 
+\begin_inset Formula $ $
+\end_inset
+
+This configuration tested the propane-oxygen car bomb as described in the
+ Inspire article.
+ Both shots were instrumented with 3 high speed cameras and 4 pressure transduce
+rs, see Figure #.
+ The three cameras were Phantom v310's, 2 color and 1 black and white.
+ The 2 color cameras were recording at at 
+\begin_inset Formula $6,000\: fps$
+\end_inset
+
+, a resolution of 
+\begin_inset Formula $800$
+\end_inset
+
+ x 
+\begin_inset Formula $600$
+\end_inset
+
+, and a 
+\begin_inset Formula $75\: mm$
+\end_inset
+
+ lens.
+ The 3rd camera recording at 
+\begin_inset Formula $6,000\: fps$
+\end_inset
+
+, a resolution of 
+\begin_inset Formula $800$
+\end_inset
+
+ x 
+\begin_inset Formula $600$
+\end_inset
+
+, and a 
+\begin_inset Formula $200\: mm$
+\end_inset
+
+ lens, was a close up of the tank.
+ All of the second shot data was lost due to a power failure hence the need
+ for the duplicate third shot.
+ Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Explosion--after-125"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Explosion--after-126"
+
+\end_inset
+
+ depict the explosion at 
+\begin_inset Formula $125\: ms$
+\end_inset
+
+ and 
+\begin_inset Formula $126\: ms$
+\end_inset
+
+ 
+\begin_inset Formula $ $
+\end_inset
+
+after initiation
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Initiation is defined as 
+\begin_inset Formula $t=0$
+\end_inset
+
+, when the firing signal from the RISI fire set was sent to the SQ-80 thermite
+ squib in the propane tank.
+\end_layout
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fragmentation-of-the-shot-1"
+
+\end_inset
+
+ shows the fragmentation
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The red rectangle to the right of the fireball is a tracking marker for
+ a single piece of fragmentation crossing the 
+\begin_inset Formula $10\: ft$
+\end_inset
+
+ reference marker.
+\end_layout
+
+\end_inset
+
+ of the propane tank 
+\begin_inset Formula $135\: ms$
+\end_inset
+
+ after initiation.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Shot-1-fragment"
+
+\end_inset
+
+ is a summary of fragment speeds captured on the high speed video.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reference
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time (ms)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distance (m)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment Velocity (m/s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to right cone 5 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+310
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to left cone 5 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+306
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank surface to right 10 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+298
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank surface to left 10 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+305
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shockwave - Tank to right 5 ft cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.67
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+744
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Shot-3-estimate"
+
+\end_inset
+
+Shot 3 estimate of fragment speeds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename PropaneTank_Shot_3_20140701/03_Shockwave 1frame(63) prior to Cone 1.JPG
+	lyxscale 50
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Explosion--after-125-1"
+
+\end_inset
+
+Explosion 
+\begin_inset Formula $10.5\: ms$
+\end_inset
+
+ after initiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Debris @ 08_Cone-6_Frame-113.JPG
+	lyxscale 50
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Explosion--after-126-1"
+
+\end_inset
+
+Explosion 
+\begin_inset Formula $19\: ms$
+\end_inset
+
+ after initiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Propane-oxygen-tank-with-1"
+
+\end_inset
+
+Propane-oxygen tank with no valve and a RISI SQ-80 thermite igniter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Propane Oxygen Test 3_Close-Up.wmv-26.283.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fragmentation-of-the-shot-1-1"
+
+\end_inset
+
+Initial rupture of tank
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The fourth charge configuration, see Figure #, was tested with an OPD valve,
+ the valve required in the United States.
+ The outlet of the OPD valve was reduced to 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ FPT.
+ A 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ nipple and tee was then used to connect 
+\begin_inset Formula $50\: ft$
+\end_inset
+
+ of copper tubing, for remote filling of the oxygen, on one end and a 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ nipple containing a improvised initiator on the other end.
+ The improvised initiator was constructed from a light bulb, match heads
+ and sealed with epoxy (J-B Weld), see Figure #.
+ 
+\begin_inset Formula $ $
+\end_inset
+
+This configuration tested the propane-oxygen car bomb as described in the
+ Inspire article.
+ This shot was instrumented with 3 high speed cameras and 4 pressure transducers
+, see Figure #.
+ The three cameras were all Phantom v310's, 2 color and 1 black and white.
+ The 2 color cameras were recording at at 
+\begin_inset Formula $6,000\: fps$
+\end_inset
+
+, a resolution of 
+\begin_inset Formula $800$
+\end_inset
+
+ x 
+\begin_inset Formula $600$
+\end_inset
+
+, and a 
+\begin_inset Formula $200\: mm$
+\end_inset
+
+ lens.The overpressure was measured with an set of 4 PCB Piezotronics Model
+ 137B23A pencil probes set at 
+\begin_inset Formula $5\: ft$
+\end_inset
+
+ and 
+\begin_inset Formula $10\: ft$
+\end_inset
+
+ from the charge center along two orthogonal axes.
+ 
+\end_layout
+
+\begin_layout Standard
+Figure # for the In order to determine the feasibility of the propane-oxygen
+ mixture an initial calculation of the tests were conducted on a series
+ of 4 propane-oxygen ignition tests have been conducted to date.
+ All four tests have resulted in a explosion that completely destroyed the
+ propane tank.
+ All of the test tanks were standard 20 lb consumer propane tanks manufactured
+ by Worthington Cylinders, see , with a propane pressure of 
+\begin_inset Formula $3\: bar\:(43.5\: psig)$
+\end_inset
+
+ with an additional 
+\begin_inset Formula $9\: bar\:(130.5\: psi)$
+\end_inset
+
+ of oxygen 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "worthington2014"
+
+\end_inset
+
+.
+ There are two primary types of valves used on propane tanks.
+ The Prest-o-Lite (POL) fitting was used in the United States until April
+ 1, 2002 after which the overfill protection device or OPD valve was required.
+ Each of these valves is designed differently and requires the flame front
+ of the initiator to travel different paths to reach the interior of the
+ propane tank.
+ To verify the possible impact of the two different valve systems one of
+ each was tested with the improvised initiator.
+ The unique initiation and valve configuration for each test tank is summarized
+ in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Propane-tank-test"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Worthington Propane Cylinder.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Worthington-20-lb"
+
+\end_inset
+
+Worthington 20 lb propane cylinder
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Test Objective
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valve 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Initiator
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Propane-oxygen mixture feasibility
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\nicefrac{3}{4}\: in$
+\end_inset
+
+ Pipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RISI SQ-80 Thermite Igniter
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Improvised initiator feasibility
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+POL Valve
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lightbulb and match heads
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+As detailed in the Inspire article.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+POL valve configuration feasibility, overpressure, 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+POL Valve
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lightbulb and match heads
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OPD valve configuration feasibility
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OPD Valve
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lightbulb and match heads
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Propane-tank-test"
+
+\end_inset
+
+Propane tank test configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The instrumentation for tests 1 and 2 consisted of both standard (GoPro
+ Hero3, 100 fps) and high-speed video (Phantom v310, 6,000 fps, 800 x 600,
+ 75 mm lens).
+ These cameras were used to record the go/no-go event, see Figure # for
+ the typical layout.
+ Instrumentation for shots 3 and 4 added 4 pencil probes and 2 additional
+ high speed video cameras with the same configuration as shots 1 and 2.
+ The pencil probes were added to collect peak overpressure and impulse data
+ for later calculation of TNT equivalency using cube root scaling
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hopkinson1915,cranz1926"
+
+\end_inset
+
+.
+ One additional high-speed video camera was added to collect 3 dimensional
+ velocity fragmentation data using Proanalyst software
+\begin_inset CommandInset citation
+LatexCommand cite
+key "proanalyst2014"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/skmcneill/Pictures/ncetr_logo.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Propane-oxygen mixture feasibility test shot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/skmcneill/Pictures/ncetr_logo.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Improvised initiator (lightbulb and match-heads) in oxygen-propane mixture
+ feasibility test shot 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Lethality
+\end_layout
+
+\begin_layout Standard
+A first order estimate of the lethality of the propane tank can be estimated
+ using the probability of kill 
+\begin_inset Formula $(P_{K})$
+\end_inset
+
+ methods developed by the U.S.
+ Department of Defense.
+ Using this method, the range within which a person will have a 
+\begin_inset Formula $50\%$
+\end_inset
+
+ probability of being kill is called the lethal range of the warhead.
+ 
+\end_layout
+
+\begin_layout Section
+Explosive Charge Data
+\end_layout
+
+\begin_layout Standard
+The ammonium nitrate was explosive grade prills ground by the HME-IPD training
+ staff per their standard practices
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+No humidity or particle size controls were used.
+\end_layout
+
+\end_inset
+
+.
+ The aluminum (Al) was German blackhead purchased from Skylighter.com.
+ The AN to Al ratio was 
+\begin_inset Formula $90:10$
+\end_inset
+
+ or 
+\begin_inset Formula $7150\: g:706\: g$
+\end_inset
+
+.
+ The tube tare
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tube tare weight consists of cardboard tube, 2 plastic end plugs, 1 probe
+ rod, 6 optical probes connectors, 2 wire nuts, 1 nylon tie, and 1 wooden
+ tensioning dowel.
+\end_layout
+
+\end_inset
+
+, gross, and net explosive weight was recorded for each tube, see Table
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:ANAL-charge-configuration"
+
+\end_inset
+
+.
+ The average charge density was 
+\begin_inset Formula $\rho_{ANAL}=1.049\pm0.01028\:\nicefrac{g}{cm^{3}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="1.6cm">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="1.75cm">
+<column alignment="center" valignment="top" width="1.75cm">
+<column alignment="center" valignment="top" width="1.3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tube ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tube Tare (g)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tube Gross (g)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Net Energetic (g)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Volume (
+\begin_inset Formula $cm^{3})$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Density (g/cm
+\begin_inset Formula $^{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+234
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1715
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1481
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1395.792
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.061
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+236
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1706
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1470
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1395.792
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.053
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+236
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1692
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1456
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1395.792
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.043
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T2.0_1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+342
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2909
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2567
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2474.200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.038
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:ANAL-charge-configuration"
+
+\end_inset
+
+ANAL charge preparation data
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Instrumentation Data
+\end_layout
+
+\begin_layout Standard
+A 2005 paper by J.
+ M.
+ Dewey that was based on data from a 1966 blast wave study of a nominal
+ 
+\begin_inset Formula $20\: ton$
+\end_inset
+
+ stoichiometric propane-oxygen mixture found a TNT equivalence of between
+ 0.55 for the propane-oxygen mixture and 1.95 for the propane alone
+\begin_inset CommandInset citation
+LatexCommand cite
+key "0022-3727-38-23-017"
+
+\end_inset
+
+.
+ Due to a series of technical failures the blast over-pressures were not
+ recorded and Dewey was required to estimate blast over-pressures based
+ 
+\end_layout
+
+\begin_layout Standard
+Two systems were used to measure the VOD simultaneously, the Explomet-fo-2000
+ and the MREL Microtrap.
+ The Explomet-fo-2000 is a fiber optic system that measures the time required
+ for the reaction front of the explosive to pass by 6 fiber optic probes
+ spaced 
+\begin_inset Formula $4\: in$
+\end_inset
+
+ apart and imbedded in the explosive under test.
+ The MREL Microtrap uses a probe rod embedded in the center of the explosive
+ charge with a known resistance per unit length.
+ The probe rod system measures the change in voltage with respect to time
+ as the rod is consumed by the explosion.
+ The rate of change of the voltage across the probe rod is proportional
+ to the VOD.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Charge-configuration"
+
+\end_inset
+
+ shows the instrument configuration.
+\end_layout
+
+\begin_layout Standard
+The charge container for each test consisted of a UNLINE cardboard mailer
+ tube at either 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ or 
+\begin_inset Formula $2\: in$
+\end_inset
+
+ in diameter with a nominal thickness of 
+\begin_inset Formula $0.60\: in$
+\end_inset
+
+.
+ The initiating charge consisted of a RISI RP-83 exploding bridgewire detonator
+ and 
+\begin_inset Formula $3\: g$
+\end_inset
+
+ of composition C4 as a booster.
+ The ratio of length to diameter for the 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ and 
+\begin_inset Formula $2\: in$
+\end_inset
+
+ diameter tubes are 
+\begin_inset Formula $25$
+\end_inset
+
+ and 
+\begin_inset Formula $19$
+\end_inset
+
+ respectively.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/ANAL-VOD-CD-Charge-Configuration.JPG
+	lyxscale 50
+	scale 135
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Charge-configuration"
+
+\end_inset
+
+Charge configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Explomet-fo-2000
+\end_layout
+
+\begin_layout Standard
+The the time required for the reaction front to travel the 
+\begin_inset Formula $4\: in$
+\end_inset
+
+ between each fiber optic probe was recorded for each charge configuration.
+ The average VOD between fiber optic probes can be seen in Tables 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Shot_1_fo_ANAL"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Shot_2_fo_ANAL"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Shot_3_fo_ANAL"
+
+\end_inset
+
+.
+ The average VOD across all 5 fiber optic pairs for shot T1.5_1 was 
+\begin_inset Formula $2879\:\nicefrac{m}{s}$
+\end_inset
+
+, shot T1.5_2 
+\begin_inset Formula $2928\:\nicefrac{m}{s}$
+\end_inset
+
+, and shot T1.5_3 
+\begin_inset Formula $2944\:\nicefrac{m}{s}$
+\end_inset
+
+.
+ The fiber optic data for the 
+\begin_inset Formula $2\: in$
+\end_inset
+
+ charge size failed to record.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probe Pair
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distance(mm)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time(uS)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VOD(m/s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+104.41
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2933
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+98.46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2948
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+104.43
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2830
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+98.86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2996
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5-6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103.51
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2908
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Shot_2_fo_ANAL"
+
+\end_inset
+
+Shot T1.5_2, ANAL, Explomet-fo-2000 VOD data for 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ diameter tube
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probe Pair
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distance(mm)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time(uS)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VOD(m/s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+99.81
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2988
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+102.99
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2918
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3-4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+101.66
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2964
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+101.55
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2861
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5-6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+102.21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2989
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Shot_3_fo_ANAL"
+
+\end_inset
+
+Shot T1.5_3, ANAL, Explomet-fo-2000 VOD data for 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ diameter tube
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+MicroTrap
+\end_layout
+
+\begin_layout Standard
+The MREL probe rods used in this test are 
+\begin_inset Formula $1\: m$
+\end_inset
+
+ in length with a linear resistance of 
+\begin_inset Formula $330\:\nicefrac{\Omega}{m}$
+\end_inset
+
+.
+ Using MREL's proprietary software the voltage change is equated to a distance
+ and plotted against time.
+ The slope of this distance vs.
+ time curve is the VOD.
+ The estimated VOD for shot T1.5_2 was 
+\begin_inset Formula $2383\:\nicefrac{m}{s}$
+\end_inset
+
+, shot T1.5_3 
+\begin_inset Formula $2923\:\nicefrac{m}{s}$
+\end_inset
+
+, and shot T2.0_1 
+\begin_inset Formula $3322\:\nicefrac{m}{s}$
+\end_inset
+
+, see Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-2, MREL"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-3,-ANAL, MREL"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-4,-ANAL,MREL"
+
+\end_inset
+
+.
+ A trigger failure occurred on shot T1.5_1 and no data was collected.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/MicroTrap/2014May016_Shot-2.jpg
+	lyxscale 50
+	scale 30
+	BoundingBox 0bp 0bp 1024bp 736bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-2, MREL"
+
+\end_inset
+
+Shot T1.5_2, ANAL, MREL probe rod VOD data for 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ diameter tube
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/MicroTrap/2014May016_Shot-3.jpg
+	lyxscale 50
+	scale 30
+	BoundingBox 0bp 0bp 1024bp 736bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-3,-ANAL, MREL"
+
+\end_inset
+
+Shot T1.5_3, ANAL, MREL probe rod VOD data for 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ diameter tube
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/MicroTrap/2014May016_Shot-4.jpg
+	lyxscale 50
+	scale 30
+	BoundingBox 0bp 0bp 1024bp 736bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-4,-ANAL,MREL"
+
+\end_inset
+
+Shot T2.0_1, ANAL, MREL probe rod VOD data for 
+\begin_inset Formula $2.0\: in$
+\end_inset
+
+ diameter tube
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Summary of VOD Data & Critical Diameter
+\end_layout
+
+\begin_layout Standard
+A summary of the VOD data collected using both the fiber optic and the probe
+ rods can be found in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Summary-of-fiber"
+
+\end_inset
+
+.
+ A theoretical maximum VOD can be estimated with only the 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ and the 
+\begin_inset Formula $2\: in$
+\end_inset
+
+ diameter charges using a linear curve fit of the VOD vs.
+ inverse of the diameter squared, see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Estimate-of-maximum"
+
+\end_inset
+
+.
+ The maximum VOD of ANAL based on these points is 
+\begin_inset Formula $3979\:\nicefrac{m}{s}$
+\end_inset
+
+.
+ This estimate will change once the remaining 2, 3, 4, 5, and 6 inch charges
+ are tested.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="1.54cm">
+<column alignment="center" valignment="top" width="1.54cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tube ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Density (
+\begin_inset Formula $\nicefrac{g}{cm^{3}}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diameter (
+\begin_inset Formula $in$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fiber Optic (
+\begin_inset Formula $\nicefrac{m}{s})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probe Rod (
+\begin_inset Formula $\nicefrac{m}{s})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.061
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2879
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No Data
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.053
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2928
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2383
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.043
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2944
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2923
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T2.0_1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+1.038
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No Data
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3322
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Summary-of-fiber"
+
+\end_inset
+
+Summary of fiber optic and probe rod VOD data for ANAL shots 1-4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/VOD vs 1:d^2.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Estimate-of-maximum"
+
+\end_inset
+
+Estimate of maximum VOD of ANAL 
+\begin_inset Formula $\left(\rho=1.049\pm0.01028\:\nicefrac{g}{cm^{3}}\right)$
+\end_inset
+
+ using a linear curve fit of the average VOD for each shot
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Weather Data
+\end_layout
+
+\begin_layout Standard
+The weather
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.wunderground.com/personal-weather-station/dashboard?ID=KALHUNTS23#histo
+ry/data/s20140516/e20140516/mtoday
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ for each shot is summarized in the Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Weather-data-for"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+May 16, 2014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T1.5_3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T2.0_1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time (24-hour clock)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1004
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1118
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1158
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temp 
+\begin_inset Formula $(^{o}F)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+56.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Humidity 
+\begin_inset Formula $(\%)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+41
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Barometric Pressure 
+\begin_inset Formula $\left(inHg\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wind 
+\begin_inset Formula $\left(mph\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Weather-data-for"
+
+\end_inset
+
+Weather data for May 16, 2014, Corkern Range
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Photography and Video
+\end_layout
+
+\begin_layout Subsection
+Photography
+\end_layout
+
+\begin_layout Standard
+Still photographs were taken before and after each test shot using a Nikon
+ D7.
+ Typical (Typ) photographs of the 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ and 
+\begin_inset Formula $2.0\: in$
+\end_inset
+
+ diameter tubes both pre and post blast can be seen in Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-1--ANAL"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-1--ANAL Post"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-4--ANAL Pre"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-4--ANAL Post"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/Nikon/Shot-1/Pre_Shot-1.JPG
+	lyxscale 15
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-1--ANAL"
+
+\end_inset
+
+Shot T1.5_1 ANAL Preblast (Typ)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/Nikon/Shot-1/Post_Shot-1.JPG
+	lyxscale 15
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-1--ANAL Post"
+
+\end_inset
+
+Shot T1.5_1 ANAL Postblast (Typ)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/Nikon/Shot-4/DSC_0074.JPG
+	lyxscale 15
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-4--ANAL Pre"
+
+\end_inset
+
+Shot T2.0_1 ANAL Preblast
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/Nikon/Shot-4/DSC_0076.JPG
+	lyxscale 15
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-4--ANAL Post"
+
+\end_inset
+
+Shot T2.0_1 ANAL Postblast
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Video
+\end_layout
+
+\begin_layout Standard
+Video was taken of each of the test shots using a GoPro Hero3.
+ Still images were extracted the moment after detonation from one of the
+ 
+\begin_inset Formula $1.5\: in$
+\end_inset
+
+ and the 
+\begin_inset Formula $2.0\: in$
+\end_inset
+
+ diameter tubes and can be seen in Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-1-detonation"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-4 detonation"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/02_Cone Offsets.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-1-detonation"
+
+\end_inset
+
+Shot T1.5_1 ANAL at detonation (Typ)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../20140516_Post_Test_Report/GoPro/Shot-4.png
+	lyxscale 15
+	scale 24
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-4 detonation"
+
+\end_inset
+
+Shot T2.0_1 ANAL at detonation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/skmcneill/Dropbox/Bibtex/Library"
+options "is-unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

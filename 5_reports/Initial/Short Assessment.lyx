@@ -1,0 +1,1594 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{url}
+\usepackage[hang,splitrule]{footmisc}
+\addtolength{\footskip}{0.5cm}
+\setlength{\footnotemargin}{0.4cm}
+\setlength{\footnotesep}{0.4cm}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plainurl
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 3cm
+\rightmargin 4cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Propane-Oxygen Car Bomb Rapid Assessment Report
+\end_layout
+
+\begin_layout Author
+S.
+ Kevin McNeill,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+shonn.mcneill@atf.gov
+\end_layout
+
+\end_inset
+
+, National Center for Explosive Training and Research (NCETR)
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Timothy Shelley, Ph.D.,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+timothy.shelley@atf.gov
+\end_layout
+
+\end_inset
+
+, ATF National Laboratory
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Joseph Tiano,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+joseph.tiano@atf.gov
+\end_layout
+
+\end_inset
+
+, Intelligence and Information Warfare Directorate (Contractor with American
+ Systems Corporation)
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Address
+National Center for Explosives Training and Research
+\begin_inset Newline newline
+\end_inset
+
+Explosive Research and Development Division
+\begin_inset Newline newline
+\end_inset
+
+Redstone Arsenal, Huntsville, AL
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+This report presents the preliminary results of a quick-look test effort
+ to determine the viability and lethality of a car bomb described in the
+ Spring 2014 issue of Inspire magazine.
+ This effort was conducted for the National Counter Terrorism Center (NCTC).
+ This is an abbreviated report limited to the preliminary results and a
+ brief discussion.
+ A more detailed report will be authored upon completion of the test program.
+\end_layout
+
+\begin_layout Standard
+The car bomb as described in the Inspire article consisted of a 
+\begin_inset Formula $20\: lb$
+\end_inset
+
+ commercial propane tank similar to what is available at HomeDepot or Lowe's
+ home improvement stores, see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Typical--propane"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Worthington Propane Cylinder.jpg
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Typical--propane"
+
+\end_inset
+
+Typical 
+\begin_inset Formula $20\: lb$
+\end_inset
+
+ propane tank used in this study
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The propane from one of these tanks is vented until 
+\begin_inset Formula $3\: bar\:(43.5\: psig)$
+\end_inset
+
+ of propane remains and then an additional 
+\begin_inset Formula $9\: bar\:(130.5\: psi)$
+\end_inset
+
+ absolute of oxygen is added to the tank for a total pressure of 
+\begin_inset Formula $12\: bar\:(188.5\: psig)$
+\end_inset
+
+.
+ An improvised initiator is then constructed from a POL
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Prest-o-Lite (POL) valve.
+ A fitting used exclusively for flammable gases.
+ Easily identified by the notches in the hex of the fitting.
+ All POL fittings are tightened by turning counter-clockwise.
+ POL valves are no longer authorized for use within the United States (April
+ 2002) having been replaced by the required Overfill Protection Device or
+ OPD valve.
+\end_layout
+
+\end_inset
+
+ x 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ hose barb fitting, a lightbulb (with leader wires), ground match heads,
+ and epoxy.
+ The top of the lightbulb is broken off and filled with ground match heads
+ and sealed with tissue.
+ The lamp is then inserted into the POL x 
+\begin_inset Formula $\nicefrac{1}{4}\: in$
+\end_inset
+
+ hose barb fitting with the lightbulb wires extending out the hose barb.
+ The hose barb is then filled with epoxy to prevent the propane-oxygen mixture
+ from leaking around the leader wires.
+ The fitting is then attached to the POL valve on the tank.
+ The article recommends that a minimum of 6 similarly modified tanks be
+ placed next to each other in a vehicle.
+ Each improvised initiator is then wired in parallel to a 
+\begin_inset Formula $12\: v$
+\end_inset
+
+ battery with a switch controlling the explosion.
+ The article specifies 3 switch types depending on the method of initiation:
+ a manual switch for martyrdom, a timer, and a radio frequency switch
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chief2014"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To determine if this propane tank bomb was feasible, a series of tests were
+ designed to address the following questions:
+\end_layout
+
+\begin_layout Enumerate
+Is the propane-oxygen recipe a viable explosive mixture?
+\end_layout
+
+\begin_layout Enumerate
+Will the flame from the improvised initiator propagate through the POL valve
+ into the tank interior and result in an explosion?
+\end_layout
+
+\begin_layout Enumerate
+Will the flame from the improvised initiator propagate through an overfill
+ protection device (OPD) valve into the tank interior and result in an explosion
+?
+\end_layout
+
+\begin_layout Enumerate
+What is the peak overpressure and impulse generated by the car bomb and
+ using this data what is the TNT equivalency?
+\end_layout
+
+\begin_layout Enumerate
+With the calculated TNT equivalency, at what range will there be a 50% probabili
+ty of a death from fragmentation?
+\end_layout
+
+\begin_layout Section
+Preliminary Results
+\end_layout
+
+\begin_layout Standard
+NCETR has conducted 4 propane-oxygen tests in this program to date.
+ All 4 tests have resulted in violent explosions producing high velocity
+ fragmentation.
+ These shots have confirmed that regardless of the valve
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Test 1 used a 
+\begin_inset Formula $\nicefrac{3}{4}\: in$
+\end_inset
+
+ pipe nipple and tee, Tests 2 and 3 used POL valves, and Test 4 used a OPD
+ valve.
+\end_layout
+
+\end_inset
+
+ type or initiator
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Test 1 used a RISI SQ-80 thermite igniter, Tests 2-4 used the improvised
+ lightbulb and ground match head igniter described in the Inspire article.
+\end_layout
+
+\end_inset
+
+ used in these tests the propane-oxygen recipe explodes and will rupture
+ the tank.
+ 
+\end_layout
+
+\begin_layout Standard
+Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fragmentation-of-the-shot-1"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shote-3-explosion-19ms"
+
+\end_inset
+
+, from test shots 1 and 3, show high velocity fragments moving away from
+ the explosion and are typical of all 4 test shots.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Shot-1-fragment"
+
+\end_inset
+
+ is a summary of the preliminary fragment speeds from shots 1 and 3.
+ The fragment speeds summarized are based on high speed video analysis,
+ without correction for fragment direction.
+ To minimize speed errors only fragments that visually appeared to track
+ perpendicular to the camera axis were measured.
+ The final report will utilize videogrammetry software that will allow the
+ tracking of the fragments in 3 dimensions and will give more accurate results.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename PropaneTank_Shot-1_20140605/007_Frag@R10'-Stake_Frame-811.JPG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fragmentation-of-the-shot-1"
+
+\end_inset
+
+Shot 1 explosion and fragmentation of the tank 
+\begin_inset Formula $135\: ms$
+\end_inset
+
+ after initiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Debris @ 08_Cone-6_Frame-113.JPG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shote-3-explosion-19ms"
+
+\end_inset
+
+Shot 3 explosion and fragmentation 
+\begin_inset Formula $19\: ms$
+\end_inset
+
+ after initiation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top" width="1.75cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Direction of Fragment Movement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time (ms)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distance (m)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fragment Velocity (m/s)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to right 
+\begin_inset Formula $5\: ft$
+\end_inset
+
+ stake
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+298
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to left 
+\begin_inset Formula $5\: ft$
+\end_inset
+
+ stake
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.43
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+318
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to right 
+\begin_inset Formula $10\: ft$
+\end_inset
+
+ stake
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+292
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to left 
+\begin_inset Formula $10\: ft$
+\end_inset
+
+ stake
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.67
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+324
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to right 
+\begin_inset Formula $5\: ft$
+\end_inset
+
+ cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+310
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to left 
+\begin_inset Formula $5\: ft$
+\end_inset
+
+ cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+306
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank right 
+\begin_inset Formula $10\: ft$
+\end_inset
+
+ cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+298
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tank to left 
+\begin_inset Formula $10\: ft$
+\end_inset
+
+ cone
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+305
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Shot-1-fragment"
+
+\end_inset
+
+Shots 1 and 3 fragment speeds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Overpressure was measured on Shot 3 and Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Overpressure-data-for x 5"
+
+\end_inset
+
+ is typical of the overpressure and impulse (shaded area under the pressure-time
+ curve) collected.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Shot-4-test"
+
+\end_inset
+
+, shows the overall test setup for shot 3 and the location of the pressure
+ transducers relative to the charge.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Overpressure X-axix 5 ft.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Overpressure-data-for x 5"
+
+\end_inset
+
+Overpressure data for shot 3 - X-axis 
+\begin_inset Formula $5\: ft$
+\end_inset
+
+ from propane tank
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Propane-Oxygen.pdf
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Shot-4-test"
+
+\end_inset
+
+Shot 3 test setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Overpressure-and-impulse"
+
+\end_inset
+
+, is a summary of the overpressure and impulse data from shot 3 along with
+ the equivalent charge masses of TNT calculated by CONWEP
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Software developed by the U.S.
+ Army Corps of Engineers Protective Design Center to calculate conventional
+ weapons effects from the equations and curves of TM 5-855-1, "Design and
+ Analysis of Hardened Structures to Conventional Weapons Effects."
+\end_layout
+
+\end_inset
+
+ and normalized on the weight, 
+\begin_inset Formula $0.95\: lb\:(0.43\: kg)$
+\end_inset
+
+, of propane and oxygen in the tank.
+ The average and standard deviation of the TNT equivalencies in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Overpressure-and-impulse"
+
+\end_inset
+
+ is 
+\begin_inset Formula $0.81\pm0.15$
+\end_inset
+
+.
+ Dewey found a slightly lower value of 
+\begin_inset Formula $0.55$
+\end_inset
+
+ (propane and oxygen) based on a 1966 study of a 
+\begin_inset Formula $20\: tn$
+\end_inset
+
+ propane-oxygen charge, however a TNT equivalence variation of more than
+ 
+\begin_inset Formula $20\%$
+\end_inset
+
+ is not uncommon for these types of blast effect measurements
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cooper:1996zl"
+
+\end_inset
+
+.
+ 
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="2.2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Axis/Distance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Overpressure (psi)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Impulse (psi-ms)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TNT Equivalency (lbs) Overpressure
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TNT Equivalency (lbs) Impulse
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+X/
+\begin_inset Formula $5\: ft$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.79
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.76
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Y/
+\begin_inset Formula $5\: ft$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.65
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.76
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+X/
+\begin_inset Formula $10\: ft$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.03
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.96
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.63
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Y/
+\begin_inset Formula $10\: ft$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.89
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Overpressure-and-impulse"
+
+\end_inset
+
+Overpressure and impulse data from shot 3 and CONWEP TNT equivalencies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The lethality of a single propane tank was examined without the shrapnel
+ enhancement recommended in the Inspire article or the complexities of multiple
+ tanks in a vehicle.
+ This was done to simplify the analysis to a first order approximation using
+ the idea of 
+\emph on
+lethal range
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Lethal range is defined as the distance from a warhead where there will
+ be a 50% probability of a kill.
+ Using this methodology requires an estimate of the number and energy of
+ the fragments produced.
+ An estimate of the number of fragments can be calculated using a distribution
+ developed by N.
+ F.
+ Mott
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cooper:1996zl"
+
+\end_inset
+
+.
+ A standard fragment energy of 
+\begin_inset Formula $4\: kJ$
+\end_inset
+
+ resulting in 
+\begin_inset Formula $90\%$
+\end_inset
+
+ lethality if it strikes a person is used as a standard fragment energy
+\begin_inset CommandInset citation
+LatexCommand cite
+key "warheads1998"
+
+\end_inset
+
+.
+ Using these values, the range at which there is a 
+\begin_inset Formula $50\%$
+\end_inset
+
+ probability of a death from fragmentation is 
+\begin_inset Formula $30\: ft\:(9\: m)$
+\end_inset
+
+.
+ Using EODTDA
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Software developed by NAVEODTECHDIV, Indian Head, MD, to calculate safe
+ blast and heavy and light cased fragmentation distances.
+\end_layout
+
+\end_inset
+
+ with 
+\begin_inset Formula $0.76\: lb$
+\end_inset
+
+ TNT
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This was calculated using the average TNT equivalency of 
+\begin_inset Formula $0.81$
+\end_inset
+
+ multiplied by the mass of explosive (propane-oxygen) used in the test,
+ 
+\begin_inset Formula $0.95\: lb\:(0.43\: kg)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ the safe blast and fragmentation distance is 
+\begin_inset Formula $277\: ft$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/skmcneill/Dropbox/Bibtex/Library"
+options "is-unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

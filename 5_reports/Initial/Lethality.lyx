@@ -1,0 +1,256 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+For a first order approximation of lethality the idea of the lethal range
+ will be used.
+ Lethal range is the distance from a warhead where there will be a 50% probabili
+ty of kill.
+ Using this methodology requires an estimate of the number of fragments
+ produced.
+ While the propane tank fragments were collected and weighed after every
+ test shot, mean fragment weight of 
+\begin_inset Formula $170\: g\:(0.37\: lb)$
+\end_inset
+
+, no attempt was made to collect all the fragmentation due to the time and
+ expense of arena testing.
+ However, a reasonable estimate can be calculated using a distribution developed
+ by N.
+ F.
+ Mott
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cooper:1996zl"
+
+\end_inset
+
+.
+ Using this method, an estimate of 532 fragments larger than 
+\begin_inset Formula $11\: g\:(0.0057\: lb)$
+\end_inset
+
+ would be produced from the propane tank.
+ Next an assessment of the vulnerability of the target if struck must be
+ evaluated.
+\end_layout
+
+\begin_layout Standard
+Vulnerability assesses the lethality of a fragment if it were to strike,
+ in this case, a person and is dependent upon the energy of the fragments.
+ Based on the average weight recovered, 
+\begin_inset Formula $170\: g\:(0.37\: lb)$
+\end_inset
+
+, and the average fragment speed from Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Shot-1-fragment"
+
+\end_inset
+
+, 
+\begin_inset Formula $306\:\nicefrac{m}{s}$
+\end_inset
+
+, a fragment energy of about 
+\begin_inset Formula $8\: kJ$
+\end_inset
+
+ can be calculated.
+ Fragment energies over 
+\begin_inset Formula $4\: kJ$
+\end_inset
+
+ can penetrate body armor and is considered 
+\begin_inset Formula $90\%$
+\end_inset
+
+ lethal if it strikes a person
+\begin_inset CommandInset citation
+LatexCommand cite
+key "warheads1998"
+
+\end_inset
+
+.
+ Because only about half of the tank mass on average was recovered, the
+ larger easier to find fragments, a more conservative and accepted value
+ of 
+\begin_inset Formula $4\: kJ$
+\end_inset
+
+ and 
+\begin_inset Formula $90\%$
+\end_inset
+
+ lethality will be assumed
+\begin_inset CommandInset citation
+LatexCommand cite
+key "warheads1998"
+
+\end_inset
+
+.
+ Lastly, the average number of fragments striking a target must be estimated.
+\end_layout
+
+\begin_layout Standard
+It has been found that the fragments from a typical warhead are generally
+ lethal at long range, far in excess of the lethal effects from blast overpressu
+re and thermal effects.
+ For example, fragments from a hand-grenade can be dangerous to a range
+ of about 
+\begin_inset Formula $100\: m$
+\end_inset
+
+.
+ However, the likelihood of being struck by a fragment at 
+\begin_inset Formula $100\: m$
+\end_inset
+
+ is small because the limited number of fragments become further spread
+ out the further they travel from the warhead.
+ The average number of fragments striking a target will reduce proportionally
+ to 
+\begin_inset Formula $\nicefrac{1}{R^{2}}$
+\end_inset
+
+, where 
+\begin_inset Formula $R$
+\end_inset
+
+ is the range
+\begin_inset CommandInset citation
+LatexCommand cite
+key "warheads1998"
+
+\end_inset
+
+.
+ The number of hits can be calculated from,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N_{Hits}=\frac{AN_{0}}{4\pi R^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $A$
+\end_inset
+
+ is the area of the target (
+\begin_inset Formula $1\: m^{2}$
+\end_inset
+
+ is assumed for a typical human), 
+\begin_inset Formula $N_{0}$
+\end_inset
+
+ is the number of fragments, and 
+\begin_inset Formula $R$
+\end_inset
+
+ is the range from target to warhead.
+ The probability, 
+\begin_inset Formula $P_{K}$
+\end_inset
+
+, of a kill is then the vulnerability if hit, 
+\begin_inset Formula $90\%$
+\end_inset
+
+, multiplied by the number of hits.
+ For our case the range was iterated until number of hits is calculated,
+ 
+\begin_inset Formula $N_{Hits}=0.55$
+\end_inset
+
+, gave a probablity of death, Therefore, the range at which there is a 
+\begin_inset Formula $50\%$
+\end_inset
+
+ probability of a death from fragmentation is then 
+\begin_inset Formula $30\: ft\:(9\: m)$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
