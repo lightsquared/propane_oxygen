@@ -1,0 +1,1723 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     66083,       1714]
+NotebookOptionsPosition[     60583,       1537]
+NotebookOutlinePosition[     61080,       1556]
+CellTagsIndexPosition[     61037,       1553]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Fesability and Lethality of a Propane-Oxygen Car Bomb", "Title",
+ CellChangeTimes->{{3.616767083079965*^9, 3.616767109105592*^9}, {
+  3.6167671420373373`*^9, 3.6167671420416107`*^9}, {3.624289009159642*^9, 
+  3.624289024253641*^9}, {3.6242913547670527`*^9, 3.624291355308591*^9}}],
+
+Cell["National Center for Explosives Training and Research", "Subtitle",
+ CellChangeTimes->{{3.616767144421289*^9, 3.616767153652936*^9}}],
+
+Cell[TextData[{
+ "S. Kevin ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["McNeill", 
+    RowBox[{"[", "a", "]"}]], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and Timoth Shelley, PhD",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["", 
+    RowBox[{"[", "b", "]"}]], TraditionalForm]],
+  FormatType->"TraditionalForm"]
+}], "Author",
+ CellChangeTimes->{{3.6167671236299267`*^9, 3.6167671266053143`*^9}, {
+  3.616767197091501*^9, 3.616767197102789*^9}, {3.624288713710545*^9, 
+  3.624288720171509*^9}, {3.624299443950499*^9, 3.6242994439598217`*^9}, {
+  3.6243798518740263`*^9, 3.624379856263228*^9}, {3.624379900687834*^9, 
+  3.624379920060886*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Abstract", "AbstractSection",
+ CellChangeTimes->{{3.624299548913034*^9, 3.624299566855526*^9}}],
+
+Cell["mmm", "Abstract",
+ CellChangeTimes->{{3.624299548913034*^9, 3.624299582151805*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Introduction", "Section",
+ CellChangeTimes->{{3.616767213675622*^9, 3.616767216995253*^9}, {
+  3.616767325926113*^9, 3.616767330148951*^9}, {3.624288745733294*^9, 
+  3.62428874771439*^9}}],
+
+Cell[TextData[{
+ "This report presents the results of a series of tests to determine the \
+fesability and lethality of a car bomb described in an article titled ",
+ StyleBox["Car Bombs in America",
+  FontSlant->"Italic"],
+ " in the Spring 2014 issue of the online magazine Inspire. This effort was \
+conducted for the National Counter Terrorism Center (NCTC)."
+}], "Text",
+ CellChangeTimes->{{3.624288810657032*^9, 3.624288896454558*^9}, {
+  3.6242889276656513`*^9, 3.62428897047338*^9}, {3.624291365597019*^9, 
+  3.6242913660764637`*^9}}],
+
+Cell["\<\
+
+The Inspire article describes how to prepare 6 propane tanks as a vehicle \
+borne improvised explosive device (VBIED).  A summary of the steps are below:\
+\
+\>", "Text",
+ CellChangeTimes->{{3.624288810657032*^9, 3.624288896454558*^9}, {
+  3.6242889276656513`*^9, 3.624288980037839*^9}, {3.6242890713405*^9, 
+  3.6242890720182037`*^9}, {3.624289287288128*^9, 3.6242893045524673`*^9}, {
+  3.624289347108488*^9, 3.624289521386896*^9}, {3.624289557104207*^9, 
+  3.624289558022561*^9}, {3.6242896149144583`*^9, 3.624289646310882*^9}, {
+  3.6242906091346693`*^9, 3.6242906097323503`*^9}, {3.6243799556779633`*^9, 
+  3.624379957995852*^9}, {3.624817109270465*^9, 3.624817123362091*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+The propane tank is vented until 3 bar (43.5 psig) of propane remains and \
+then an additional 9 bar (130.5 psia) of oxygen is added to the tank for a \
+total pressure of 12 bar (188.5psig).\
+\>", "Item1Numbered",
+ CellChangeTimes->{{3.6242897753325033`*^9, 3.62428982507031*^9}, {
+   3.624289910100205*^9, 3.624290065317266*^9}, {3.624290140839386*^9, 
+   3.624290162796343*^9}, 3.6242902013549423`*^9, 3.624290705382494*^9, {
+   3.624817131691433*^9, 3.62481715888186*^9}}],
+
+Cell["\<\
+An improvised initiator is then constructed from a POL1 x 1/4 in hose barb \
+fitting, a lightbulb (with leader wires), ground match heads, and epoxy. The \
+top of the lightbulb is broken off and filled with ground match heads and \
+sealed with tissue. The lamp is then inserted into the POL x 1/4 in hose barb \
+fitting with the lightbulb wires extending out the hose barb. The hose barb \
+is then filled with epoxy to prevent the propane-oxygen mixture from leaking \
+around the leader wires. The fitting is then attached to the POL valve on the \
+tank.\
+\>", "Item1Numbered",
+ CellChangeTimes->{{3.6242897753325033`*^9, 3.62428982507031*^9}, {
+   3.624289910100205*^9, 3.624289940386497*^9}, {3.6242900802334127`*^9, 
+   3.624290124216054*^9}, {3.6242901700843887`*^9, 3.624290186499453*^9}, {
+   3.6242902198740253`*^9, 3.624290259173685*^9}, {3.624290622689672*^9, 
+   3.624290627409277*^9}, 3.624290724733562*^9, {3.624817169969482*^9, 
+   3.624817170176817*^9}}],
+
+Cell["\<\
+The article recommends that a minimum of 6 similarly modified tanks be placed \
+next to each other in a vehicle.\
+\>", "Item1Numbered",
+ CellChangeTimes->{{3.6242897753325033`*^9, 3.62428982507031*^9}, {
+   3.624289910100205*^9, 3.624289940386497*^9}, {3.6242900802334127`*^9, 
+   3.624290124216054*^9}, {3.6242901700843887`*^9, 3.624290186499453*^9}, {
+   3.6242902198740253`*^9, 3.624290259166871*^9}, {3.6242902896934566`*^9, 
+   3.624290319995895*^9}, {3.6242903950876617`*^9, 3.624290449178351*^9}, {
+   3.624290637656877*^9, 3.624290641624857*^9}, 3.6242907395404377`*^9}],
+
+Cell["\<\
+Each improvised initiator is then wired in parallel to a 12 v battery with a \
+switch controlling the explosion.\
+\>", "Item1Numbered",
+ CellChangeTimes->{{3.6242897753325033`*^9, 3.62428982507031*^9}, {
+  3.624289910100205*^9, 3.624289940386497*^9}, {3.6242900802334127`*^9, 
+  3.624290124216054*^9}, {3.6242901700843887`*^9, 3.624290186499453*^9}, {
+  3.6242902198740253`*^9, 3.624290259166871*^9}, {3.6242902896934566`*^9, 
+  3.624290319995895*^9}, {3.6242903950876617`*^9, 3.6242904636963654`*^9}, {
+  3.624290652097385*^9, 3.624290662569025*^9}, {3.6242907548836527`*^9, 
+  3.6242907565620947`*^9}}],
+
+Cell["\<\
+The article specifies 3 switch types depending on the method of initiation: a \
+manual switch for martyrdom, a timer, and a radio frequency switch[A].\
+\>", "Item1Numbered",
+ CellChangeTimes->{{3.6242897753325033`*^9, 3.62428982507031*^9}, {
+  3.624289910100205*^9, 3.624289940386497*^9}, {3.6242900802334127`*^9, 
+  3.624290124216054*^9}, {3.6242901700843887`*^9, 3.624290186499453*^9}, {
+  3.6242902198740253`*^9, 3.624290259166871*^9}, {3.6242902896934566`*^9, 
+  3.624290319995895*^9}, {3.6242903950876617`*^9, 3.6242904636963654`*^9}, {
+  3.624290652097385*^9, 3.624290662569025*^9}, {3.6242907548836527`*^9, 
+  3.624290765099107*^9}, {3.6242908383848877`*^9, 3.6242908529492397`*^9}, {
+  3.624820100040764*^9, 3.62482010072674*^9}}]
+}, Open  ]],
+
+Cell["\<\
+To determine the feasiblity of the VBIED a series of tests were designed to \
+address the following questions:\
+\>", "Text",
+ CellChangeTimes->{{3.6242897753325033`*^9, 3.62428982507031*^9}, {
+  3.624289910100205*^9, 3.624289940386497*^9}, {3.6242900802334127`*^9, 
+  3.624290124216054*^9}, {3.6242901700843887`*^9, 3.624290186499453*^9}, {
+  3.6242902198740253`*^9, 3.624290259166871*^9}, {3.6242902896934566`*^9, 
+  3.624290319995895*^9}, {3.6242903950876617`*^9, 3.6242904636963654`*^9}, {
+  3.624290652097385*^9, 3.624290662569025*^9}, {3.6242907548836527`*^9, 
+  3.624290765099107*^9}, {3.6242908383848877`*^9, 3.624290852943303*^9}, {
+  3.624290933752489*^9, 3.624290941085883*^9}, {3.6242912232014227`*^9, 
+  3.624291229544591*^9}, {3.624291278615574*^9, 3.62429131607847*^9}, {
+  3.624291376059409*^9, 3.6242914125822153`*^9}, {3.624299045597979*^9, 
+  3.624299056720072*^9}, {3.624299359675996*^9, 3.624299368459469*^9}, {
+  3.624379963963491*^9, 3.624379964195669*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Is the propane-oxygen recipe a viable explosive mixture?", \
+"Item1Numbered",
+ CellChangeTimes->{
+  3.6242991614217043`*^9, {3.6242991937626657`*^9, 3.624299227192596*^9}, 
+   3.624299268421838*^9}],
+
+Cell["\<\
+Will the flame from the improvised initiator propagate through the POL valve \
+into the tank interior and result in an explosion?\
+\>", "Item1Numbered",
+ CellChangeTimes->{
+  3.6242991614217043`*^9, {3.6242991937626657`*^9, 3.624299241151812*^9}}],
+
+Cell["\<\
+Will the flame from the improvised initiator propagate through an overfill \
+protection device (OPD) valve into the tank interior and result in an \
+explosion?\
+\>", "Item1Numbered",
+ CellChangeTimes->{
+  3.6242991614217043`*^9, {3.6242991937626657`*^9, 3.624299246215974*^9}, {
+   3.624299287008107*^9, 3.62429928701469*^9}}],
+
+Cell["\<\
+What is the peak overpressure and impulse generated by the car bomb and using \
+this data what is the TNT equivalency?\
+\>", "Item1Numbered",
+ CellChangeTimes->{
+  3.6242991614217043`*^9, {3.6242991937626657`*^9, 3.624299246215974*^9}, {
+   3.624299287008107*^9, 3.6242992899020023`*^9}}],
+
+Cell["\<\
+With the calculated TNT equivalency, at what range will there be a 50% \
+probability of a death from fragmentation with a single tank and 6 tanks?\
+\>", "Item1Numbered",
+ CellChangeTimes->{
+  3.6242991614217043`*^9, {3.6242991937626657`*^9, 3.624299246215974*^9}, {
+   3.624299287008107*^9, 3.6242993327886*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Experimental Section", "Subsection",
+ CellChangeTimes->{{3.6243811083648787`*^9, 3.624381109660653*^9}, {
+  3.62438285820532*^9, 3.6243828880424633`*^9}, {3.6243829374614143`*^9, 
+  3.624382943195149*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Feasiblity of Propane-Oxygen Mixture", "Subsubsection",
+ CellChangeTimes->{{3.624382990661648*^9, 3.6243830173463078`*^9}, {
+  3.624383260146627*^9, 3.62438327053026*^9}}],
+
+Cell["\<\
+The initial test was designed to determine if the propane-oxygen mixture as \
+described in the article would explode.  To test this all other potential \
+ignition failure points were removed.  This included the standard propane \
+tank valve (POL or OPD) and the improvised igniter.  To replace the valve, a \
+3/4 in schedule 40 steel nipple and tee were used.  To replace the improvised \
+igniter,  a RISI model XXX thermite ignitier was used, see Figure 1.\
+\>", "Text",
+ CellChangeTimes->{{3.624383036931406*^9, 3.624383067516377*^9}, {
+  3.624383165543325*^9, 3.624383244109044*^9}, {3.624383288124179*^9, 
+  3.6243833802615023`*^9}, {3.624817255295731*^9, 3.6248174351084223`*^9}}],
+
+Cell["FIGURE", "Text",
+ CellChangeTimes->{{3.624383464479336*^9, 3.6243834681192217`*^9}, {
+  3.6243839600392647`*^9, 3.624383961671054*^9}}],
+
+Cell["\<\
+Figure 1 - Feasability test setup of propane-oxygen mixture test setup.\
+\>", "FigureCaption",
+ CellChangeTimes->{{3.624383407789825*^9, 3.62438344667003*^9}}],
+
+Cell["\<\
+Preparation of the propane-oxygen mixture was considered hazardous given that \
+most nonmetals are flammable in 100% oxygen at ambient pressure, and most \
+metals are flammable in oxygen at increased pressure[B]. To limit the oxygen \
+hazard a remote fill apparatus was designed.  The remote fill apparatus was \
+staged in a steel baracade 50 ft from the propane tank.  The apparatus \
+allowed the operator to monitor the tank pressure while safely behind the \
+baracade, see Figure 2.\
+\>", "Text",
+ CellChangeTimes->{{3.624383562969673*^9, 3.6243837028998613`*^9}, {
+   3.624383755348188*^9, 3.6243839070946283`*^9}, {3.624817461695166*^9, 
+   3.624817510805744*^9}, {3.62481841410634*^9, 3.624818437743999*^9}, 
+   3.6248194733457823`*^9, {3.624819507484291*^9, 3.624819508204517*^9}, {
+   3.6248201064391327`*^9, 3.624820166006813*^9}}],
+
+Cell["FIGURE", "Text",
+ CellChangeTimes->{{3.624383955351309*^9, 3.6243839561273727`*^9}}],
+
+Cell["Figure 2 - Remote fill apparatus", "FigureCaption",
+ CellChangeTimes->{{3.624383935823038*^9, 3.624383951375628*^9}}],
+
+Cell["\<\
+From the Worthington website the 20 lb propane the propane tank, and the RISI \
+igniter volume is given as,\
+\>", "Text",
+ CellChangeTimes->{{3.616767213675622*^9, 3.616767216995253*^9}, {
+   3.616767325926113*^9, 3.616767381443095*^9}, 3.616767453508087*^9, {
+   3.624383714741441*^9, 3.624383725372986*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"tankCapacity", "=", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"47.6", ",", "\"\<lb\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.616712257350657*^9, 3.616712257365056*^9}, {
+  3.616712628864252*^9, 3.616712672727159*^9}, {3.6167136737477617`*^9, 
+  3.616713687603738*^9}, {3.616713758112609*^9, 3.616713758780542*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"47.6`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"lb\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: pounds"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Pounds\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{{3.6167136744049053`*^9, 3.616713690525179*^9}, 
+   3.616713760377112*^9, {3.616713814720099*^9, 3.616713840408128*^9}, 
+   3.61671456428967*^9, 3.616756500047843*^9, 3.616759845356164*^9, 
+   3.616760003049963*^9, 3.61676009607572*^9, 3.616760128385639*^9, 
+   3.616760386868558*^9, 3.616760498792672*^9, 3.6167608873934298`*^9, 
+   3.616761432371702*^9, 3.616762720442107*^9, 3.616763200201076*^9, 
+   3.617191529516527*^9, {3.617191560556534*^9, 3.617191572082479*^9}, 
+   3.617313288753415*^9, 3.617437607081716*^9, 3.617797786807911*^9, 
+   3.617831911490456*^9, 3.618170681679895*^9, 3.618170795937581*^9, 
+   3.618170847717915*^9, 3.618172073821053*^9, {3.618172161814384*^9, 
+   3.61817218187309*^9}, 3.618172321926619*^9, 3.618172435702836*^9, 
+   3.61817368468225*^9, 3.6181738397023487`*^9, 3.618173896203958*^9, 
+   3.61817396844519*^9}]
+}, Open  ]],
+
+Cell["\<\
+of water.  To convet the water weight of the tank to a volume we need the \
+water density,\
+\>", "Text",
+ CellChangeTimes->{{3.616767602338378*^9, 3.6167677172970867`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["\[Rho]", "H2O"], " ", "=", " ", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"ChemicalData", "[", 
+     RowBox[{"\"\<Water\>\"", ",", "\"\<Density\>\""}], "]"}], ",", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"\"\<Pounds\>\"", "/", "\"\<Liters\>\""}], "]"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.6167567518868513`*^9, 3.616756815795869*^9}, {
+   3.616759607504921*^9, 3.616759661705731*^9}, {3.616759775444145*^9, 
+   3.616759786146246*^9}, {3.616759918589463*^9, 3.616759982276877*^9}, {
+   3.616760157161091*^9, 3.6167601836571617`*^9}, 3.616760339170051*^9, {
+   3.6167607407979927`*^9, 3.616760773764032*^9}, {3.616760857267569*^9, 
+   3.616760877325919*^9}, {3.61718951706067*^9, 3.617189520181408*^9}, {
+   3.6171895521278753`*^9, 3.61718956339902*^9}, {3.61718960514677*^9, 
+   3.617189609210235*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"2.2046226218487757`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", 
+          
+          RowBox[{"\"lb\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]",
+             "\"L\""}]}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: pounds per liter"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", 
+       FractionBox["\"Pounds\"", "\"Liters\""]}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.61675681925819*^9, {3.616759616933034*^9, 3.6167596363932247`*^9}, 
+   3.61675978818785*^9, 3.616759845627944*^9, {3.616759990042574*^9, 
+   3.616760003224436*^9}, 3.6167600963479853`*^9, 3.616760128886421*^9, {
+   3.616760169887649*^9, 3.616760185380145*^9}, 3.616760340701805*^9, 
+   3.616760386903846*^9, 3.616760498831402*^9, 3.616760795353366*^9, {
+   3.616760879063479*^9, 3.616760887420829*^9}, 3.616761432408193*^9, 
+   3.616762720477179*^9, 3.616763200239766*^9, 3.617189579219927*^9, 
+   3.617189610978888*^9, 3.617191529848778*^9, {3.617191560928947*^9, 
+   3.617191572401917*^9}, 3.617313298882483*^9, 3.617437617501314*^9, 
+   3.617797797636593*^9, 3.6178319224222307`*^9, 3.618170692492167*^9, 
+   3.618170795996111*^9, 3.618170847769225*^9, 3.61817207386628*^9, {
+   3.618172161858748*^9, 3.618172181914686*^9}, 3.6181723219719048`*^9, 
+   3.6181724357430077`*^9, 3.618173684720831*^9, 3.618173839742858*^9, 
+   3.6181738962504377`*^9, 3.618173968483968*^9}]
+}, Open  ]],
+
+Cell["The tank volume can be found from,", "Text",
+ CellChangeTimes->{{3.616767735322783*^9, 3.616767747313178*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"tankVolume", "=", " ", 
+  FractionBox["tankCapacity", 
+   SubscriptBox["\[Rho]", "H2O"]]}]], "Input",
+ CellChangeTimes->{{3.616713593643659*^9, 3.6167136041591454`*^9}, 
+   3.6167136676110487`*^9, {3.616713699527705*^9, 3.6167137864403553`*^9}, {
+   3.616713828972982*^9, 3.616713836604622*^9}, {3.616713913581458*^9, 
+   3.616713967110677*^9}, {3.616714109219342*^9, 3.616714113053875*^9}, {
+   3.616714558739464*^9, 3.616714560273048*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"21.590996812`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"L\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: liters"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Liters\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.61671411446487*^9, 3.6167145643793383`*^9, 3.61675650310532*^9, 
+   3.616759848436234*^9, 3.616760006152542*^9, 3.616760097889204*^9, 
+   3.6167601289158792`*^9, 3.616760344358004*^9, 3.616760386949861*^9, 
+   3.61676049887656*^9, {3.616760882785231*^9, 3.616760887475689*^9}, 
+   3.616761432458951*^9, 3.616762720539*^9, 3.6167632002877817`*^9, 
+   3.61719152991273*^9, {3.617191560977309*^9, 3.6171915724484997`*^9}, 
+   3.617313299162921*^9, 3.6174376177509117`*^9, 3.6177977978874073`*^9, 
+   3.617831922647846*^9, 3.618170692748106*^9, 3.618170796052936*^9, 
+   3.61817084781391*^9, 3.6181720739111967`*^9, {3.6181721619133797`*^9, 
+   3.618172181959326*^9}, 3.618172322021776*^9, 3.618172435788517*^9, 
+   3.61817368476425*^9, 3.618173839790642*^9, 3.6181738962965937`*^9, 
+   3.618173968528458*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Mass of Propan and Oxygen in Tank", "Section",
+ CellChangeTimes->{{3.617293837075795*^9, 3.61729384609781*^9}}],
+
+Cell["\<\
+We then need the mass of the propane oxygen mixture in the tank at their \
+respective pressures.  This can be calculated by applying the ideal gas law \
+for each gas.  The Inspire article specified an absolute oxygen pressure of,\
+\>", "Text",
+ CellChangeTimes->{{3.616767772980577*^9, 3.61676781015707*^9}, {
+  3.61676784284896*^9, 3.616767857184836*^9}, {3.617189654435317*^9, 
+  3.617189656469693*^9}, {3.617293863424986*^9, 3.617293879983303*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["p", "oxy"], "=", " ", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"Quantity", "[", 
+     RowBox[{"9.", ",", " ", "\"\<bar\>\""}], "]"}], ",", " ", 
+    RowBox[{"Quantity", "[", "\"\<atm\>\"", "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.616714156813854*^9, 3.616714179298637*^9}, {
+  3.6167604524120502`*^9, 3.616760490781467*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"8.882309400444115`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"atm\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: atmospheres"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Atmospheres\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{{3.6167604705124407`*^9, 3.61676049890396*^9}, 
+   3.616760887502678*^9, 3.616761432489443*^9, 3.6167627205667543`*^9, 
+   3.616763200310501*^9, 3.6171915306675987`*^9, {3.6171915610018663`*^9, 
+   3.6171915724727793`*^9}, 3.617313300028845*^9, 3.617437618468952*^9, 
+   3.617797798483758*^9, 3.617831923951384*^9, 3.61817069376775*^9, 
+   3.618170796078854*^9, 3.6181708478376637`*^9, 3.618172073938052*^9, {
+   3.618172161954665*^9, 3.618172181981451*^9}, 3.618172322060298*^9, 
+   3.6181724358150597`*^9, 3.618173684787253*^9, 3.61817383982773*^9, 
+   3.618173896319953*^9, 3.6181739685507183`*^9}]
+}, Open  ]],
+
+Cell["and an absolute propane pressure of,", "Text",
+ CellChangeTimes->{{3.616767821216441*^9, 3.616767834536907*^9}, {
+  3.616767869381631*^9, 3.616767873605591*^9}, {3.617189660723756*^9, 
+  3.617189662522133*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["p", "propane"], "=", " ", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"Quantity", "[", 
+     RowBox[{"4.", ",", " ", "\"\<bar\>\""}], "]"}], ",", " ", 
+    RowBox[{"Quantity", "[", "\"\<atm\>\"", "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6167141843538523`*^9, 3.616714210270722*^9}, {
+  3.616760409743593*^9, 3.616760439552335*^9}, {3.6167604936450577`*^9, 
+  3.616760494269261*^9}, {3.6167631949451838`*^9, 3.61676319523402*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"3.9476930668640513`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"atm\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: atmospheres"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Atmospheres\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.616714211732443*^9, 3.616714564439519*^9, 3.616756503703074*^9, 
+   3.616759848532666*^9, 3.616760006264659*^9, 3.616760097999106*^9, 
+   3.616760131023243*^9, 3.616760387007742*^9, {3.6167604338955383`*^9, 
+   3.616760443275613*^9}, {3.61676049521487*^9, 3.616760498936873*^9}, 
+   3.616760887536908*^9, 3.6167614325223*^9, 3.616762720601235*^9, 
+   3.616763200344885*^9, 3.617191530790269*^9, {3.617191561038432*^9, 
+   3.6171915725041447`*^9}, 3.617313300124647*^9, 3.617437618506013*^9, 
+   3.617797798523488*^9, 3.6178319241624804`*^9, 3.618170693960631*^9, 
+   3.618170796118664*^9, 3.618170847878985*^9, 3.618172073974338*^9, {
+   3.6181721619967318`*^9, 3.618172182019555*^9}, 3.6181723220988283`*^9, 
+   3.61817243583519*^9, 3.618173684820671*^9, 3.618173839864092*^9, 
+   3.6181738963544817`*^9, 3.618173968583783*^9}]
+}, Open  ]],
+
+Cell["The temperature at the time of Test 1 was,", "Text",
+ CellChangeTimes->{{3.61676787843358*^9, 3.6167678863895273`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"t", " ", "=", " ", 
+   RowBox[{"WeatherData", "[", 
+    RowBox[{"\"\<KHSV\>\"", ",", " ", "\"\<MeanTemperature\>\"", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2014", ",", "7", ",", "1"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"2014", ",", "7", ",", "1"}], "}"}], ",", " ", 
+       "\"\<Day\>\""}], "}"}], ",", "\"\<NonMetricValue\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Temp", " ", "=", " ", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"Quantity", "[", 
+     RowBox[{
+      RowBox[{"t", "[", 
+       RowBox[{"[", "1", "]"}], "]"}], ",", "\"\<Fahrenheit\>\""}], "]"}], 
+    ",", " ", 
+    RowBox[{"Quantity", "[", "\"\<Kelvins\>\"", "]"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.617190873444717*^9, 3.6171909377711887`*^9}, {
+  3.617191294892044*^9, 3.61719137299436*^9}, {3.6171914233440847`*^9, 
+  3.617191497344645*^9}, {3.617191539543298*^9, 3.617191557277542*^9}, {
+  3.617293939007537*^9, 3.617293940892542*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"301.2611111111111`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"K\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: kelvins"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Kelvins\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.617191438899935*^9, 3.617191469434334*^9, 3.617191500285719*^9, 
+   3.617191530955955*^9, {3.617191561283587*^9, 3.617191572837113*^9}, 
+   3.6172939574937153`*^9, 3.617313300408208*^9, 3.6174376223438063`*^9, 
+   3.617797802314814*^9, 3.617831927562867*^9, 3.618170697407786*^9, 
+   3.618170796279399*^9, 3.618170848058279*^9, 3.61817207414888*^9, {
+   3.618172162167321*^9, 3.618172182187767*^9}, 3.618172322285551*^9, 
+   3.618172435996626*^9, 3.6181736850027742`*^9, 3.6181738400227137`*^9, 
+   3.6181738965156307`*^9, 3.618173968744032*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "The ideal gas constant in ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"atm", " ", "L"}], 
+    RowBox[{"K", " ", "mol"}]], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " is,"
+}], "Text",
+ CellChangeTimes->{{3.6167678978007717`*^9, 3.616767924068878*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"R", " ", "=", " ", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{WolframAlphaClient`Private`query$$ = 
+    "ideal gas constant in L atm/(mol K)", 
+    WolframAlphaClient`Private`boxes$$ = 
+    TemplateBox[{"0.08206"}, "QuantityUnit", DisplayFunction -> (TooltipBox[
+       StyleBox[
+        RowBox[{#, "\[InvisibleSpace]", 
+          StyleBox[
+           RowBox[{" ", 
+             
+             RowBox[{"\"atm\"", "\[ThinSpace]", "\"L\"", "\[InvisibleSpace]", 
+               "\"/(\"", "\[InvisibleSpace]", "\"K\"", "\[ThinSpace]", 
+               "\"mol\"", "\[InvisibleSpace]", "\")\""}]}], 
+           "QuantityUnitTraditionalInput"]}], ShowStringCharacters -> False], 
+       "Unit: atmosphere liters per kelvin mole"]& ), 
+     InterpretationFunction -> (RowBox[{"Quantity", "[", 
+        RowBox[{#, ",", 
+          FractionBox[
+           RowBox[{"\"Atmospheres\"", " ", "\"Liters\""}], 
+           RowBox[{"\"Kelvins\"", " ", "\"Moles\""}]]}], "]"}]& ), SyntaxForm -> 
+     Mod], WolframAlphaClient`Private`allassumptions$$ = {}, 
+    WolframAlphaClient`Private`assumptions$$ = {}, 
+    WolframAlphaClient`Private`open$$ = {1, 2}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 1, 
+       Dynamic[WolframAlphaClient`Private`query$$], 
+       Dynamic[WolframAlphaClient`Private`boxes$$], 
+       Dynamic[WolframAlphaClient`Private`allassumptions$$], 
+       Dynamic[WolframAlphaClient`Private`assumptions$$], 
+       Dynamic[WolframAlphaClient`Private`open$$]], StandardForm],
+     ImageSizeCache->{230., {10., 24.}},
+     TrackedSymbols:>{
+      WolframAlphaClient`Private`query$$, WolframAlphaClient`Private`boxes$$, 
+       WolframAlphaClient`Private`allassumptions$$, 
+       WolframAlphaClient`Private`assumptions$$, 
+       WolframAlphaClient`Private`open$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{WolframAlphaClient`Private`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True]}]], "Input",
+ CellChangeTimes->{{3.6167144205618553`*^9, 3.616714465096818*^9}, 
+   3.616762704333243*^9}],
+
+Cell[BoxData[
+ TemplateBox[{"0.08206`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", 
+          
+          RowBox[{"\"atm\"", "\[ThinSpace]", "\"L\"", "\[InvisibleSpace]", 
+            "\"/(\"", "\[InvisibleSpace]", "\"K\"", "\[ThinSpace]", "\"mol\"",
+             "\[InvisibleSpace]", "\")\""}]}], 
+        "QuantityUnitTraditionalLabel"]}], ShowStringCharacters -> False], 
+    "Unit: atmosphere liters per kelvin mole"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", 
+       FractionBox[
+        RowBox[{"\"Atmospheres\"", " ", "\"Liters\""}], 
+        RowBox[{"\"Kelvins\"", " ", "\"Moles\""}]]}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.61671447550844*^9, 3.616714564511948*^9, 3.616756505418907*^9, 
+   3.616759848588921*^9, 3.616760006331846*^9, 3.616760098063027*^9, 
+   3.6167601326813993`*^9, 3.61676038706666*^9, 3.616760499006926*^9, 
+   3.6167606153243837`*^9, 3.61676088760279*^9, 3.616761432586619*^9, {
+   3.616762711197748*^9, 3.6167627206771193`*^9}, 3.616763200397827*^9, 
+   3.6171915310108624`*^9, {3.61719156131428*^9, 3.617191572860585*^9}, 
+   3.6173133004705963`*^9, 3.617437622612791*^9, 3.6177978025931787`*^9, 
+   3.6178319278626213`*^9, 3.618170697669684*^9, 3.618170796304903*^9, 
+   3.618170848085231*^9, 3.618172074187139*^9, {3.618172162203231*^9, 
+   3.6181721822226763`*^9}, 3.6181723223098288`*^9, 3.618172436044025*^9, 
+   3.618173685028808*^9, 3.6181738400478907`*^9, 3.618173896540875*^9, 
+   3.618173968766721*^9}]
+}, Open  ]],
+
+Cell["\<\
+Solving for moles in the ideal gas law and multiplying by the molar mass of \
+propane we have the mass of propane as,\
+\>", "Text",
+ CellChangeTimes->{{3.616767931905444*^9, 3.616767970949614*^9}, {
+  3.617294000407649*^9, 3.6172940244695807`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   SubscriptBox["n", "propane"], " ", "=", " ", 
+   FractionBox[
+    RowBox[{
+     SubscriptBox["p", "propane"], " ", "tankVolume"}], 
+    RowBox[{"R", " ", "Temp"}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["m", "propane"], "=", " ", 
+   RowBox[{"ChemicalData", "[", 
+    RowBox[{"\"\<Propane\>\"", ",", "\"\<MolarMass\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["w", "propane"], "=", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["n", "propane"], "*", 
+     SubscriptBox["m", "propane"]}], ",", " ", "\"\<Pounds\>\""}], 
+   "]"}]}]}], "Input",
+ CellChangeTimes->{{3.616714484341138*^9, 3.61671453326143*^9}, {
+  3.61671456904596*^9, 3.616714581193972*^9}, {3.616760684204115*^9, 
+  3.616760705651701*^9}, {3.61676138267381*^9, 3.6167613868324623`*^9}, {
+  3.6167614237667513`*^9, 3.61676146313799*^9}, {3.6167617153676987`*^9, 
+  3.616761814552865*^9}, {3.61676186867813*^9, 3.616761871276341*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"0.33517467642983934`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"lb\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: pounds"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Pounds\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.616761469752791*^9, {3.6167617619240227`*^9, 3.616761776981945*^9}, 
+   3.616761817264072*^9, 3.616761874758113*^9, 3.6167627207870207`*^9, 
+   3.61676320053251*^9, 3.6171915312815247`*^9, {3.617191561427656*^9, 
+   3.6171915729725523`*^9}, 3.617313300747514*^9, 3.617437622884447*^9, 
+   3.617797802883377*^9, 3.617831928132257*^9, 3.618170697937543*^9, 
+   3.6181707964592524`*^9, 3.618170848198118*^9, 3.618172074299065*^9, {
+   3.618172162355152*^9, 3.6181721823302307`*^9}, 3.61817232241658*^9, 
+   3.618172436163514*^9, 3.618173685143808*^9, 3.61817384015394*^9, 
+   3.618173896651758*^9, 3.618173968875547*^9}]
+}, Open  ]],
+
+Cell["and for oxygen we have,", "Text",
+ CellChangeTimes->{{3.617294034945304*^9, 3.617294037722406*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   SubscriptBox["n", "oxy"], " ", "=", " ", 
+   FractionBox[
+    RowBox[{
+     SubscriptBox["p", "oxy"], " ", "tankVolume"}], 
+    RowBox[{"R", " ", "Temp"}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["m", "oxy"], "=", " ", 
+   RowBox[{"ChemicalData", "[", 
+    RowBox[{"\"\<Oxygen\>\"", ",", "\"\<MolarMass\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["w", "oxy"], "=", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["n", "oxy"], "*", 
+     SubscriptBox["m", "oxy"]}], ",", " ", "\"\<Pounds\>\""}], 
+   "]"}]}]}], "Input",
+ CellChangeTimes->{{3.616714484341138*^9, 3.61671453326143*^9}, {
+  3.61671456904596*^9, 3.616714581193972*^9}, {3.616760684204115*^9, 
+  3.616760705651701*^9}, {3.61676138267381*^9, 3.6167613868324623`*^9}, {
+  3.6167614237667513`*^9, 3.616761493285227*^9}, {3.616761591537547*^9, 
+  3.616761706016666*^9}, {3.6167618226584*^9, 3.6167618352405376`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"0.5472577941147458`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"lb\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: pounds"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Pounds\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{{3.616761664196858*^9, 3.6167617093278303`*^9}, 
+   3.6167618366824636`*^9, 3.616761877394013*^9, 3.6167627208997097`*^9, 
+   3.616763200645411*^9, 3.617191531415416*^9, {3.61719156154274*^9, 
+   3.617191573082408*^9}, 3.617313300883881*^9, 3.61743762302185*^9, 
+   3.617797803027409*^9, 3.617831928271957*^9, 3.618170698069664*^9, 
+   3.618170796590946*^9, 3.6181708483072147`*^9, 3.618172074417438*^9, {
+   3.6181721624823303`*^9, 3.6181721824390697`*^9}, 3.618172322526846*^9, 
+   3.6181724362731133`*^9, 3.618173685253167*^9, 3.618173840267673*^9, 
+   3.618173896768058*^9, 3.618173968984868*^9}]
+}, Open  ]],
+
+Cell["The total weight of both the oxygen and propane is,", "Text",
+ CellChangeTimes->{{3.6167679808081293`*^9, 3.616767993132927*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"c", "=", " ", 
+  RowBox[{
+   SubscriptBox["w", "propane"], " ", "+", " ", 
+   SubscriptBox["w", "oxy"]}]}]], "Input",
+ CellChangeTimes->{{3.616761857560775*^9, 3.616761895919366*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"0.8824324705445852`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"lb\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: pounds"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Pounds\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.6167618978461*^9, 3.616762720931476*^9, 3.616763200676814*^9, 
+   3.617191531440612*^9, {3.617191561567316*^9, 3.61719157310454*^9}, 
+   3.617313300914763*^9, 3.617437623046733*^9, 3.6177978030541773`*^9, 
+   3.6178319282965527`*^9, 3.618170698089754*^9, 3.618170796613882*^9, 
+   3.618170848330509*^9, 3.618172074442973*^9, {3.618172162505989*^9, 
+   3.6181721824730253`*^9}, 3.6181723225508327`*^9, 3.6181724363028927`*^9, 
+   3.618173685276266*^9, 3.618173840291831*^9, 3.618173896793467*^9, 
+   3.618173969020289*^9}]
+}, Open  ]],
+
+Cell["\<\
+We can then use the Gurney Energy equation for a cylinder to calculate the \
+initial velocity of fragments from the propane tank,\
+\>", "Text",
+ CellChangeTimes->{{3.616768111047825*^9, 3.616768151583384*^9}, {
+  3.617294055330927*^9, 3.6172940620454273`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Gurney Energy Calculations", "Section",
+ CellChangeTimes->{{3.617293837075795*^9, 3.61729384609781*^9}, {
+  3.6181734975614777`*^9, 3.6181735041840963`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SubscriptBox["v", "0"], "[", 
+   RowBox[{"c_", ",", " ", "m_", ",", " ", "g_", ",", " ", "tnteq_"}], "]"}], 
+  ":=", 
+  RowBox[{"g", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     FractionBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{"1.2", "c", " ", "tnteq"}], "m"], ")"}], 
+      RowBox[{"1", "+", 
+       RowBox[{
+        FractionBox["1", "2"], 
+        RowBox[{"(", 
+         FractionBox[
+          RowBox[{"1.2", "c", " ", "tnteq"}], "m"], ")"}]}]}]], ")"}], 
+    RowBox[{"1", "/", "2"}]]}]}]], "Input",
+ CellChangeTimes->{{3.616709062653234*^9, 3.616709086381115*^9}, {
+  3.616710125684578*^9, 3.61671014813334*^9}, {3.616710266787274*^9, 
+  3.616710305627976*^9}, {3.6167103759174633`*^9, 3.616710462590662*^9}, {
+  3.616710600309854*^9, 3.616710605574682*^9}, {3.616711619368957*^9, 
+  3.616711648370315*^9}, {3.616711686607826*^9, 3.616711691953292*^9}}],
+
+Cell["\<\
+where c is the charge mass in lbs, m is the cylinder weight in pounds, tnteq \
+is the TNT equivalency of the explosive charge, and g is the Gureny Energy.  \
+The cylinder mass is calculated from,\
+\>", "Text",
+ CellChangeTimes->{{3.616768164473206*^9, 3.616768224953949*^9}, {
+  3.616768264388852*^9, 3.616768274302979*^9}, {3.617294082813218*^9, 
+  3.617294124618988*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"m", "[", 
+   RowBox[{
+   "router_", ",", " ", "rinner_", ",", " ", "h_", ",", "\[Rho]cylinder_"}], 
+   "]"}], ":=", 
+  RowBox[{"2", "\[Pi]", " ", 
+   FractionBox[
+    RowBox[{"(", 
+     RowBox[{"router", "+", " ", "rinner"}], ")"}], "2"], " ", "h", 
+   RowBox[{"(", 
+    RowBox[{"router", "-", " ", "rinner"}], ")"}], " ", 
+   "\[Rho]cylinder"}]}]], "Input",
+ CellChangeTimes->{{3.616768288255836*^9, 3.616768347987214*^9}, {
+   3.616768384486155*^9, 3.616768420110045*^9}, {3.61729417521242*^9, 
+   3.617294208389679*^9}, {3.617294375771942*^9, 3.6172944795742693`*^9}, {
+   3.617313485290739*^9, 3.617313491235417*^9}, {3.6174375486813717`*^9, 
+   3.617437581601815*^9}, {3.6181711539508553`*^9, 3.618171162021489*^9}, 
+   3.618171282959489*^9, {3.618171316354361*^9, 3.6181713462564297`*^9}, {
+   3.618171396734524*^9, 3.618171448210862*^9}, {3.6181714953341103`*^9, 
+   3.61817149594727*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["w", "c"], " ", "=", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"m", "[", 
+     RowBox[{
+      RowBox[{"Quantity", "[", 
+       RowBox[{"12.3", ",", " ", "\"\<Inches\>\""}], "]"}], ",", " ", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"12.222", ",", " ", "\"\<Inches\>\""}], "]"}], ",", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"12", ",", "\"\<Inches\>\""}], "]"}], ",", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"7.85", ",", " ", 
+        RowBox[{"\"\<Grams\>\"", "/", 
+         SuperscriptBox["\"\<Centimeters\>\"", "3"]}]}], "]"}]}], "]"}], ",", 
+    "\"\<Pounds\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.617294518964542*^9, 3.617294534555242*^9}, {
+  3.617295093938343*^9, 3.617295145093026*^9}, {3.617295454666163*^9, 
+  3.617295498281516*^9}, {3.617295532498172*^9, 3.6172955382212677`*^9}, {
+  3.617295750339026*^9, 3.6172957572458*^9}, {3.617295820652028*^9, 
+  3.6172958903404417`*^9}, {3.617312882146202*^9, 3.617312886232615*^9}, {
+  3.617313190159408*^9, 3.6173132541274443`*^9}, {3.617313409654956*^9, 
+  3.6173134272102747`*^9}, {3.617313530372293*^9, 3.617313541413939*^9}, {
+  3.617437559818363*^9, 3.617437577514183*^9}, {3.617437686169591*^9, 
+  3.617437704050048*^9}, {3.618173577907625*^9, 3.618173580216784*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"20.449687490958098`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"lb\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: pounds"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Pounds\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.617312890914154*^9, {3.617313198414494*^9, 3.617313255786582*^9}, 
+   3.617313300958273*^9, 3.6173134322057543`*^9, 3.617313498233349*^9, 
+   3.617313543726788*^9, 3.617437587868833*^9, 3.6174376231354637`*^9, 
+   3.617437717791039*^9, 3.61779780316285*^9, 3.617831928409088*^9, {
+   3.618170676162842*^9, 3.618170698190854*^9}, 3.61817079670039*^9, 
+   3.618170848418713*^9, 3.61817135436666*^9, 3.618171455184009*^9, 
+   3.618171501392722*^9, 3.618172074519182*^9, {3.618172162592824*^9, 
+   3.6181721825439568`*^9}, 3.618172322621883*^9, 3.6181724363792048`*^9, 
+   3.6181735818053017`*^9, 3.618173685342306*^9, 3.6181738403629208`*^9, 
+   3.618173896864036*^9, 3.618173969092064*^9}]
+}, Open  ]],
+
+Cell["\<\
+Substituting calculated values and using a TNT equivalency of 0.81 based on \
+experimental evidence from peak overpresssure and impulse we have,\
+\>", "Text",
+ CellChangeTimes->{{3.617437770756699*^9, 3.617437844662733*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["v", "0"], "[", 
+  RowBox[{"c", ",", 
+   SubscriptBox["m", "c"], ",", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"8000.", ",", "\"\<m/s\>\""}], "]"}], ",", " ", "0.88"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.616710485286274*^9, 3.616710491159958*^9}, {
+  3.616710611681641*^9, 3.616710630008747*^9}, {3.6167110043905897`*^9, 
+  3.616711098464321*^9}, {3.616711137941608*^9, 3.616711165232409*^9}, {
+  3.6167116643681593`*^9, 3.616711667214015*^9}, {3.616768029501254*^9, 
+  3.616768029982815*^9}, {3.617437671871879*^9, 3.617437674816904*^9}, {
+  3.617437723821371*^9, 3.617437724594036*^9}, {3.618173964590907*^9, 
+  3.618173965194063*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"1688.6023898038036`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", 
+          
+          RowBox[{"\"m\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+            "\"s\""}]}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: meters per second"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", 
+       FractionBox["\"Meters\"", "\"Seconds\""]}], "]"}]& )]], "Output",
+ CellChangeTimes->{{3.616711140638472*^9, 3.616711169086061*^9}, 
+   3.6167116688177433`*^9, 3.616711699217008*^9, {3.61671381488993*^9, 
+   3.616713840561517*^9}, 3.6167145647470007`*^9, 3.6167565105159388`*^9, 
+   3.6167598521575327`*^9, 3.616760009929744*^9, 3.616760101420209*^9, 
+   3.616760133141507*^9, 3.616760387338558*^9, 3.6167604992404757`*^9, 
+   3.616760887791465*^9, 3.6167614328034897`*^9, 3.616762721011608*^9, 
+   3.6167632007516727`*^9, 3.616768032195973*^9, 3.617191531547141*^9, {
+   3.6171915617143927`*^9, 3.617191573189403*^9}, {3.617313271908033*^9, 
+   3.6173133010272827`*^9}, 3.617437623216551*^9, 3.617437679127453*^9, 
+   3.617437727009575*^9, 3.617797803246791*^9, 3.617831928489056*^9, 
+   3.618170698271831*^9, 3.6181707967494087`*^9, 3.618170848467041*^9, 
+   3.618172074586278*^9, {3.618172162661099*^9, 3.618172182594986*^9}, 
+   3.618172322670726*^9, 3.618172436436531*^9, 3.6181736853941717`*^9, 
+   3.618173840414682*^9, 3.618173896914617*^9, 3.618173969153569*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fragmentation Calculations", "Section",
+ CellChangeTimes->{{3.617293837075795*^9, 3.61729384609781*^9}, {
+  3.618173520914403*^9, 3.618173529046042*^9}}],
+
+Cell[TextData[{
+ StyleBox["The fragment distrubtion factor, ", "Text",
+  FontWeight->"Plain"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["M", "A"], TraditionalForm]]],
+ ", is given by"
+}], "Text",
+ CellChangeTimes->{{3.616569381113791*^9, 3.616569466600585*^9}, {
+  3.6174378712997217`*^9, 3.6174378717475147`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ma", "[", 
+   RowBox[{"tc_", ",", "di_", ",", " ", "b_"}], "]"}], ":=", 
+  RowBox[{"b", " ", 
+   SuperscriptBox["tc", 
+    RowBox[{"5", "/", "6"}]], 
+   SuperscriptBox["di", 
+    RowBox[{"1", "/", "3"}]], 
+   RowBox[{"(", 
+    RowBox[{"1", "+", 
+     FractionBox["tc", "di"]}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["M", "A"], "=", 
+  RowBox[{"ma", "[", 
+   RowBox[{
+    RowBox[{"Quantity", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"12.3", "-", "12.222"}], ")"}], ",", " ", "\"\<Inches\>\""}], 
+     "]"}], ",", " ", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"12.222", ",", " ", "\"\<Inches\>\""}], "]"}], ",", " ", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"0.312", ",", " ", 
+      FractionBox[
+       SuperscriptBox["\"\<Ounces\>\"", 
+        FractionBox["1", "2"]], 
+       SuperscriptBox["\"\<Inches\>\"", 
+        FractionBox["7", "6"]]]}], "]"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.616067182631701*^9, 3.616067306905377*^9}, {
+   3.617796829714878*^9, 3.617796912530397*^9}, {3.6177974026222763`*^9, 
+   3.617797439493135*^9}, {3.617797523178172*^9, 3.6177975358107357`*^9}, {
+   3.6177975867256613`*^9, 3.617797734144863*^9}, {3.617797813647605*^9, 
+   3.617797918564961*^9}, 3.617799371704259*^9, {3.617831679419545*^9, 
+   3.617831691253179*^9}, {3.617831950388568*^9, 3.617831950956559*^9}, {
+   3.618152326886121*^9, 3.618152331035384*^9}, {3.6181700604029837`*^9, 
+   3.6181700910406847`*^9}, {3.618170182923422*^9, 3.618170228298778*^9}, {
+   3.618173536958495*^9, 3.618173556745866*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"0.08630653639718516`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", 
+          RowBox[{
+            SqrtBox["\"oz\""]}]}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: square root ounces"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", 
+       SqrtBox["\"Ounces\""]}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.6178320106298723`*^9, 3.618152336331406*^9, {3.618170062430931*^9, 
+   3.6181700932715893`*^9}, {3.6181701865869303`*^9, 3.6181702304027843`*^9}, 
+   3.618170698375407*^9, 3.618170796818021*^9, 3.618170848537353*^9, 
+   3.618172074688137*^9, {3.618172162733094*^9, 3.618172182667445*^9}, 
+   3.618172322748951*^9, 3.618172436513153*^9, {3.618173546586385*^9, 
+   3.618173559458617*^9}, 3.6181736854741077`*^9, 3.618173840488256*^9, 
+   3.6181738969943447`*^9, 3.618173969224021*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "where ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["M", "A"], TraditionalForm]]],
+ " is the fragment distribution factor ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["oz", 
+     FractionBox["1", "2"]], ")"}], TraditionalForm]]],
+ "\n",
+ StyleBox["b",
+  FontSlant->"Italic"],
+ " is the Mott explosive constant ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    FractionBox[
+     SuperscriptBox["oz", 
+      FractionBox["1", "2"]], 
+     SuperscriptBox["in", 
+      FractionBox["7", "6"]]], ")"}], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", "c"], TraditionalForm]]],
+ " is the average casing thickness (in)\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["d", "i"], " "}], TraditionalForm]]],
+ " is the average inside diameter (in)"
+}], "Text",
+ CellChangeTimes->{{3.6165694931517982`*^9, 3.616569689690382*^9}, {
+  3.616569763481649*^9, 3.6165697652234993`*^9}, {3.6181523624242477`*^9, 
+  3.618152362862221*^9}, {3.6181703134492683`*^9, 3.618170326458199*^9}}],
+
+Cell[TextData[{
+ "The design fragment weight, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["W", "f"], TraditionalForm]]],
+ ", is given by,"
+}], "Text",
+ CellChangeTimes->{{3.616569710369616*^9, 3.616569747437305*^9}, {
+  3.616569929268306*^9, 3.6165699314710007`*^9}, {3.616570229853595*^9, 
+  3.616570236633209*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"wf", "[", 
+   RowBox[{"ma_", ",", "cl_"}], "]"}], " ", ":=", " ", 
+  RowBox[{
+   SuperscriptBox["ma", "2"], 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{"Log", "[", 
+      RowBox[{"1", " ", "-", " ", "cl"}], "]"}], ")"}], "2"]}]}]], "Input",
+ CellChangeTimes->{{3.6160832652513237`*^9, 3.616083320308074*^9}, {
+   3.617799863050549*^9, 3.617799919765418*^9}, {3.617799956814993*^9, 
+   3.61780002737844*^9}, {3.6178315603577633`*^9, 3.6178315851042957`*^9}, 
+   3.617831625442692*^9, {3.61817230573166*^9, 3.618172305848502*^9}, 
+   3.618172588388708*^9, {3.6181727098829823`*^9, 3.6181727322860203`*^9}, {
+   3.61817338134319*^9, 3.618173389380035*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["W", "f"], "=", 
+  RowBox[{"wf", "[", 
+   RowBox[{
+    SubscriptBox["M", "A"], ",", "0.95"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.617831633024884*^9, 3.617831664545198*^9}, {
+  3.6181523843572273`*^9, 3.6181524085133553`*^9}, {3.618172308503971*^9, 
+  3.618172312125731*^9}, {3.6181733977855577`*^9, 3.618173403253677*^9}, {
+  3.618173607792184*^9, 3.618173608640335*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"0.06684876258169775`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"oz\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: ounces"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Ounces\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.617831666627454*^9, 3.617831698568591*^9, 3.6178319288314037`*^9, {
+   3.618152397941929*^9, 3.618152411007855*^9}, 3.6181526045758953`*^9, 
+   3.6181703394833384`*^9, 3.618170698413062*^9, 3.618170796859521*^9, 
+   3.6181708485814333`*^9, 3.618172074730589*^9, {3.618172162778101*^9, 
+   3.618172182708696*^9}, {3.618172313352584*^9, 3.618172322843419*^9}, 
+   3.618172436616598*^9, 3.61817276946456*^9, {3.618173400467586*^9, 
+   3.618173404330656*^9}, 3.618173610470299*^9, 3.6181736855151243`*^9, 
+   3.618173840526505*^9, 3.618173897029471*^9, 3.618173969258316*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "where ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["W", "f"], TraditionalForm]]],
+ " design fragment weight (oz)\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["m", "A"], TraditionalForm]]],
+ " is the fragment distribution factor ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["oz", 
+     FractionBox["1", "2"]], ")"}], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "L"], TraditionalForm]]],
+ " is the confidence level where ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["C", "L"], TraditionalForm]]],
+ " lies between 0 and 1.  It is defined as the probablity that the weight, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["W", "f"], TraditionalForm]]],
+ ", is the largest weight fragment produced.  For unintentional detonations a \
+",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["C", "L"], TraditionalForm]]],
+ "= 0.95 is required."
+}], "Text",
+ CellChangeTimes->{{3.616569770499796*^9, 3.616569885127523*^9}, {
+  3.616569936962697*^9, 3.616569952331102*^9}, {3.61656999018095*^9, 
+  3.616570131516527*^9}, {3.618152634265523*^9, 3.618152644072381*^9}}],
+
+Cell[TextData[{
+ "The maximum fragment weight, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["W", 
+    RowBox[{"f", "(", "max", ")"}]], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", is given by,"
+}], "Text",
+ CellChangeTimes->{{3.6165701827620487`*^9, 3.616570209839333*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Wfmax", "[", 
+   RowBox[{"ma_", ",", "wc_"}], "]"}], ":=", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"ma", " ", 
+     RowBox[{"Log", "[", 
+      FractionBox[
+       RowBox[{"8", " ", "wc"}], 
+       SuperscriptBox["ma", "2"]], "]"}]}], ")"}], "2"]}]], "Input",
+ CellChangeTimes->{{3.616083045680891*^9, 3.616083139418253*^9}, {
+  3.617831718736876*^9, 3.617831790917097*^9}, {3.618170518485856*^9, 
+  3.618170521213787*^9}, {3.618173623705399*^9, 3.618173626550707*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["W", "fmax"], "=", 
+  RowBox[{"Wfmax", "[", 
+   RowBox[{
+    SubscriptBox["M", "A"], ",", 
+    SubscriptBox["w", "c"]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.61817042372316*^9, 3.618170527241749*^9}, 
+   3.61817056230125*^9, 3.618170630287408*^9, {3.6181736290310783`*^9, 
+   3.6181736792330847`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"1.2146428895556958`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"oz\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: ounces"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Ounces\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{{3.618170632431952*^9, 3.618170643225299*^9}, 
+   3.618170698649415*^9, 3.618170796925562*^9, 3.6181708486460133`*^9, 
+   3.6181720748032303`*^9, {3.61817216284081*^9, 3.618172182770831*^9}, 
+   3.6181723229082937`*^9, 3.618172436691677*^9, {3.6181736429553347`*^9, 
+   3.618173685583625*^9}, 3.618173840592963*^9, 3.6181738970898943`*^9, 
+   3.618173969324225*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["M", "A"], TraditionalForm]]],
+ " is the fragment distribution factor ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["oz", 
+     FractionBox["1", "2"]], ")"}], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["w", "c"], TraditionalForm]]],
+ " is the weight of the casing (lbs)"
+}], "Text",
+ CellChangeTimes->{{3.61657027420748*^9, 3.6165703063830557`*^9}, {
+  3.618170723444377*^9, 3.618170728854466*^9}, {3.618173647623811*^9, 
+  3.6181736481982813`*^9}}],
+
+Cell[TextData[{
+ "The average fragment weight, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["W", 
+    RowBox[{"f", "(", "avg", ")"}]], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", is given by,"
+}], "Text",
+ CellChangeTimes->{{3.616570419295627*^9, 3.616570446868093*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Wfavg", "[", "ma_", "]"}], ":=", 
+  RowBox[{"2", " ", 
+   SuperscriptBox["ma", "2"]}]}]], "Input",
+ CellChangeTimes->{{3.618170818055581*^9, 3.618170872906315*^9}, {
+  3.618173712197242*^9, 3.61817371476064*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["W", "favg"], "=", 
+  RowBox[{"Wfavg", "[", 
+   SubscriptBox["M", "A"], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6181708833026743`*^9, 3.6181709144183292`*^9}, {
+  3.618173717043882*^9, 3.618173735764086*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{"0.014897636449757294`"},
+  "QuantityUnit",
+  DisplayFunction->(TooltipBox[
+    StyleBox[
+     RowBox[{#, "\[InvisibleSpace]", 
+       StyleBox[
+        RowBox[{" ", "\"oz\""}], "QuantityUnitTraditionalLabel"]}], 
+     ShowStringCharacters -> False], "Unit: ounces"]& ),
+  InterpretationFunction->(RowBox[{"Quantity", "[", 
+     RowBox[{#, ",", "\"Ounces\""}], "]"}]& )]], "Output",
+ CellChangeTimes->{
+  3.618170916306466*^9, 3.61817207483943*^9, {3.618172162890394*^9, 
+   3.618172182814604*^9}, 3.6181723229510612`*^9, 3.618172436939126*^9, 
+   3.618173685620714*^9, {3.618173729471933*^9, 3.618173737167139*^9}, 
+   3.6181738406315393`*^9, 3.618173897120422*^9, 3.6181739693593388`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "where ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["W", 
+    RowBox[{"f", "(", "avg", ")"}]], TraditionalForm]]],
+ " is the average frament weight\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["M", "A"], TraditionalForm]]],
+ " is the fragment distribution factor ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["oz", 
+     FractionBox["1", "2"]], ")"}], TraditionalForm]]]
+}], "Text",
+ CellChangeTimes->{{3.616570454092622*^9, 3.6165704861937323`*^9}}],
+
+Cell[TextData[{
+ "The total number of fragments, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "T"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", is given by,"
+}], "Text",
+ CellChangeTimes->{{3.616570503468841*^9, 3.616570541155346*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SubscriptBox["n", "t"], "[", 
+   RowBox[{"wc_", ",", "ma_"}], "]"}], ":=", " ", 
+  FractionBox[
+   RowBox[{"8", " ", "wc"}], 
+   SuperscriptBox["ma", "2"]]}]], "Input",
+ CellChangeTimes->{{3.6160832039365187`*^9, 3.6160832389585133`*^9}, {
+  3.618170926604246*^9, 3.6181709827839527`*^9}, {3.618172142140747*^9, 
+  3.6181721423428707`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["N", "t"], "=", 
+  RowBox[{
+   SubscriptBox["n", "t"], "[", 
+   RowBox[{
+    SubscriptBox["w", "c"], ",", 
+    SubscriptBox["M", "A"]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6181709996828117`*^9, 3.6181710559868937`*^9}, {
+  3.618172145886284*^9, 3.618172157451243*^9}, {3.618173784245973*^9, 
+  3.618173785612359*^9}, {3.618173824606011*^9, 3.618173826848071*^9}}],
+
+Cell[BoxData["351406.078094392`"], "Output",
+ CellChangeTimes->{
+  3.61817105920757*^9, 3.61817207495247*^9, {3.618172162946261*^9, 
+   3.618172182871088*^9}, 3.618172323021853*^9, 3.6181724370083714`*^9, 
+   3.6181736856748447`*^9, {3.618173829535781*^9, 3.618173840682783*^9}, 
+   3.6181738971760178`*^9, 3.6181739694149017`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "T"], TraditionalForm]]],
+ " is the total number of fragments\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["w", "c"], TraditionalForm]]],
+ " is the weight of the casing (lbs)\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["M", "A"], TraditionalForm]]],
+ " is the fragment distribution factor ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["oz", 
+     FractionBox["1", "2"]], ")"}], TraditionalForm]]]
+}], "Text",
+ CellChangeTimes->{{3.616570556562788*^9, 3.616570563639173*^9}, {
+  3.61657073455597*^9, 3.616570743927513*^9}, {3.618170989875476*^9, 
+  3.618170990290491*^9}, {3.618171531757907*^9, 3.618171535313673*^9}, {
+  3.6181722467564983`*^9, 3.6181722479928417`*^9}, {3.6181738508648376`*^9, 
+  3.6181738517083273`*^9}}],
+
+Cell[TextData[{
+ "The total number of fragments larger than than the design fragment, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "f"], TraditionalForm]]],
+ ", is given by,"
+}], "Text",
+ CellChangeTimes->{{3.616570576898285*^9, 3.6165706286583223`*^9}, {
+  3.61817220870896*^9, 3.6181722091580153`*^9}, {3.618173857512401*^9, 
+  3.618173858097958*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"nf", "[", 
+   RowBox[{"wc_", ",", "ma_", ",", " ", "wf_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    FractionBox[
+     RowBox[{"8", " ", "wc"}], 
+     SuperscriptBox["ma", "2"]], ")"}], 
+   RowBox[{"Exp", "[", 
+    RowBox[{"-", 
+     FractionBox[
+      SuperscriptBox["wf", 
+       FractionBox["1", "2"]], "ma"]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.616083339916711*^9, 3.616083486765026*^9}, {
+  3.618171545109778*^9, 3.618171651713331*^9}, {3.61817173792638*^9, 
+  3.618171738697747*^9}, {3.618171785132255*^9, 3.618171789266148*^9}, {
+  3.618173428037455*^9, 3.618173429419118*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["N", "f"], "=", 
+  RowBox[{"nf", "[", 
+   RowBox[{
+    SubscriptBox["m", "c"], ",", " ", 
+    SubscriptBox["m", "A"], ",", 
+    SubscriptBox["w", "f"]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6181716696915703`*^9, 3.61817172701959*^9}, {
+  3.618172176615391*^9, 3.618172178004491*^9}, {3.618173434447505*^9, 
+  3.618173435257391*^9}}],
+
+Cell[BoxData["17570.303904719618`"], "Output",
+ CellChangeTimes->{
+  3.618171730927589*^9, 3.6181720750384607`*^9, {3.618172163048059*^9, 
+   3.6181721829871902`*^9}, 3.6181723231120367`*^9, 3.6181724371213903`*^9, 
+   3.618173437224661*^9, 3.618173685756857*^9, 3.618173840766262*^9, 
+   3.618173897259468*^9, 3.618173969497216*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "f"], TraditionalForm]]],
+ " is the number of fragments larger than the design fragment\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["W", "f"], TraditionalForm]]],
+ " design fragment weight (oz)\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["w", "c"], TraditionalForm]]],
+ " is the weight of the casing (lbs)\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["M", "A"], TraditionalForm]]],
+ " is the fragment distribution factor ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["oz", 
+     FractionBox["1", "2"]], ")"}], TraditionalForm]]]
+}], "Text",
+ CellChangeTimes->{{3.616570641602717*^9, 3.616570719154509*^9}, {
+  3.618172034617878*^9, 3.618172044910327*^9}, {3.618173867402568*^9, 
+  3.618173877819606*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["References", "ReferenceSection",
+ CellChangeTimes->{{3.62481847062649*^9, 3.624818475492712*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Chef, AQ. \[OpenCurlyDoubleQuote]Car Bombs in \
+America.\[CloseCurlyDoubleQuote] Inspire 1435.12 (2014): 64-71. 1 Apr. 2014. \
+Web. 14 June 2014.\
+\>", "Reference",
+ CellChangeTimes->{{3.62481847062649*^9, 3.624818475485483*^9}, 
+   3.62481887547707*^9, {3.624818917555133*^9, 3.6248189251910954`*^9}, {
+   3.624818999111733*^9, 3.624819000557575*^9}, {3.624819062237118*^9, 
+   3.6248190676385508`*^9}, 3.6248191194753838`*^9, {3.624820085169492*^9, 
+   3.6248200893683023`*^9}}],
+
+Cell["\<\
+ASTM Standard MNL36-2ND, 2007, \"Safe Use of Oxygen and Oxygen Systems: \
+Handbook for Design, Operation, and Maintenance\" ASTM International, West \
+Conshohocken, PA, 2003, ISBN 978-0-8031-4470-5, www.astm.org.\
+\>", "Reference",
+ CellChangeTimes->{{3.62481847062649*^9, 3.624818475485483*^9}, 
+   3.62481887547707*^9, {3.624818917555133*^9, 3.6248189251910954`*^9}, {
+   3.624818999111733*^9, 3.624819000557575*^9}, {3.624819062237118*^9, 
+   3.6248190676385508`*^9}, 3.6248191194753838`*^9, 3.624820085169492*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{960, 1075},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+PrivateNotebookOptions->{"NoteStyle"->"Automatic"},
+Magnification->1.5,
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
+2014)",
+StyleDefinitions->FrontEnd`FileName[{"Article"}, "JournalArticle.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 286, 3, 159, "Title"],
+Cell[869, 27, 138, 1, 40, "Subtitle"],
+Cell[1010, 30, 658, 18, 65, "Author"],
+Cell[CellGroupData[{
+Cell[1693, 52, 101, 1, 35, "AbstractSection"],
+Cell[1797, 55, 89, 1, 29, "Abstract"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1923, 61, 194, 3, 71, "Section"],
+Cell[2120, 66, 539, 10, 78, "Text"],
+Cell[2662, 78, 690, 12, 78, "Text"],
+Cell[CellGroupData[{
+Cell[3377, 94, 485, 8, 44, "Item1Numbered"],
+Cell[3865, 104, 978, 15, 105, "Item1Numbered"],
+Cell[4846, 121, 588, 9, 23, "Item1Numbered"],
+Cell[5437, 132, 614, 10, 23, "Item1Numbered"],
+Cell[6054, 144, 748, 11, 44, "Item1Numbered"]
+}, Open  ]],
+Cell[6817, 158, 989, 15, 31, "Text"],
+Cell[CellGroupData[{
+Cell[7831, 177, 204, 4, 23, "Item1Numbered"],
+Cell[8038, 183, 257, 5, 44, "Item1Numbered"],
+Cell[8298, 190, 336, 7, 44, "Item1Numbered"],
+Cell[8637, 199, 298, 6, 44, "Item1Numbered"],
+Cell[8938, 207, 322, 6, 44, "Item1Numbered"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9297, 218, 211, 3, 49, "Subsection"],
+Cell[CellGroupData[{
+Cell[9533, 225, 177, 2, 35, "Subsubsection"],
+Cell[9713, 229, 695, 10, 102, "Text"],
+Cell[10411, 241, 141, 2, 31, "Text"],
+Cell[10555, 245, 169, 3, 27, "FigureCaption"],
+Cell[10727, 250, 850, 13, 125, "Text"],
+Cell[11580, 265, 90, 1, 31, "Text"],
+Cell[11673, 268, 123, 1, 27, "FigureCaption"],
+Cell[11799, 271, 319, 6, 31, "Text"],
+Cell[CellGroupData[{
+Cell[12143, 281, 343, 6, 40, "Input"],
+Cell[12489, 289, 1263, 23, 40, "Output"]
+}, Open  ]],
+Cell[13767, 315, 182, 4, 31, "Text"],
+Cell[CellGroupData[{
+Cell[13974, 323, 871, 17, 65, "Input"],
+Cell[14848, 342, 1556, 29, 40, "Output"]
+}, Open  ]],
+Cell[16419, 374, 116, 1, 31, "Text"],
+Cell[CellGroupData[{
+Cell[16560, 379, 465, 8, 72, "Input"],
+Cell[17028, 389, 1231, 23, 40, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18332, 420, 117, 1, 71, "Section"],
+Cell[18452, 423, 461, 7, 55, "Text"],
+Cell[CellGroupData[{
+Cell[18938, 434, 388, 9, 45, "Input"],
+Cell[19329, 445, 1039, 19, 40, "Output"]
+}, Open  ]],
+Cell[20383, 467, 216, 3, 31, "Text"],
+Cell[CellGroupData[{
+Cell[20624, 474, 490, 10, 45, "Input"],
+Cell[21117, 486, 1272, 23, 40, "Output"]
+}, Open  ]],
+Cell[22404, 512, 125, 1, 31, "Text"],
+Cell[CellGroupData[{
+Cell[22554, 517, 1044, 25, 87, "Input"],
+Cell[23601, 544, 978, 19, 40, "Output"]
+}, Open  ]],
+Cell[24594, 566, 293, 10, 43, "Text"],
+Cell[CellGroupData[{
+Cell[24912, 580, 2146, 45, 58, "Input"],
+Cell[27061, 627, 1587, 31, 40, "Output"]
+}, Open  ]],
+Cell[28663, 661, 258, 5, 31, "Text"],
+Cell[CellGroupData[{
+Cell[28946, 670, 1027, 26, 131, "Input"],
+Cell[29976, 698, 1051, 20, 40, "Output"]
+}, Open  ]],
+Cell[31042, 721, 105, 1, 31, "Text"],
+Cell[CellGroupData[{
+Cell[31172, 726, 1002, 26, 131, "Input"],
+Cell[32177, 754, 1028, 19, 40, "Output"]
+}, Open  ]],
+Cell[33220, 776, 135, 1, 31, "Text"],
+Cell[CellGroupData[{
+Cell[33380, 781, 207, 5, 45, "Input"],
+Cell[33590, 788, 954, 19, 40, "Output"]
+}, Open  ]],
+Cell[34559, 810, 270, 5, 55, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34866, 820, 163, 2, 71, "Section"],
+Cell[35032, 824, 912, 24, 96, "Input"],
+Cell[35947, 850, 383, 7, 55, "Text"],
+Cell[36333, 859, 931, 20, 91, "Input"],
+Cell[CellGroupData[{
+Cell[37289, 883, 1309, 26, 108, "Input"],
+Cell[38601, 911, 1120, 21, 40, "Output"]
+}, Open  ]],
+Cell[39736, 935, 234, 4, 55, "Text"],
+Cell[CellGroupData[{
+Cell[39995, 943, 684, 14, 43, "Input"],
+Cell[40682, 959, 1564, 28, 40, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42295, 993, 159, 2, 71, "Section"],
+Cell[42457, 997, 315, 9, 31, "Text"],
+Cell[CellGroupData[{
+Cell[42797, 1010, 1587, 38, 189, "Input"],
+Cell[44387, 1050, 988, 21, 46, "Output"]
+}, Open  ]],
+Cell[45390, 1074, 1039, 36, 167, "Text"],
+Cell[46432, 1112, 317, 9, 35, "Text"],
+Cell[46752, 1123, 695, 15, 45, "Input"],
+Cell[CellGroupData[{
+Cell[47472, 1142, 416, 9, 40, "Input"],
+Cell[47891, 1153, 1005, 19, 40, "Output"]
+}, Open  ]],
+Cell[48911, 1175, 1114, 36, 134, "Text"],
+Cell[50028, 1213, 285, 9, 35, "Text"],
+Cell[50316, 1224, 511, 13, 70, "Input"],
+Cell[CellGroupData[{
+Cell[50852, 1241, 344, 9, 43, "Input"],
+Cell[51199, 1252, 793, 16, 40, "Output"]
+}, Open  ]],
+Cell[52007, 1271, 552, 18, 79, "Text"],
+Cell[52562, 1291, 283, 9, 35, "Text"],
+Cell[52848, 1302, 247, 6, 45, "Input"],
+Cell[CellGroupData[{
+Cell[53120, 1312, 248, 6, 45, "Input"],
+Cell[53371, 1320, 718, 15, 40, "Output"]
+}, Open  ]],
+Cell[54104, 1338, 487, 17, 83, "Text"],
+Cell[54594, 1357, 253, 8, 31, "Text"],
+Cell[54850, 1367, 378, 10, 70, "Input"],
+Cell[CellGroupData[{
+Cell[55253, 1381, 408, 10, 43, "Input"],
+Cell[55664, 1393, 331, 5, 40, "Output"]
+}, Open  ]],
+Cell[56010, 1401, 808, 23, 102, "Text"],
+Cell[56821, 1426, 358, 9, 35, "Text"],
+Cell[57182, 1437, 633, 17, 84, "Input"],
+Cell[CellGroupData[{
+Cell[57840, 1458, 376, 10, 43, "Input"],
+Cell[58219, 1470, 333, 5, 40, "Output"]
+}, Open  ]],
+Cell[58567, 1478, 791, 25, 134, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59395, 1508, 103, 1, 71, "ReferenceSection"],
+Cell[CellGroupData[{
+Cell[59523, 1513, 490, 9, 25, "Reference"],
+Cell[60016, 1524, 527, 8, 47, "Reference"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
